@@ -1,5 +1,76 @@
 {
   "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#000000",
+    "color_price": "#1c1d1d",
+    "color_savings_text": "#ff4e4e",
+    "color_borders": "#e8e8e1",
+    "color_button": "#111111",
+    "color_button_text": "#ffffff",
+    "color_cart_dot": "#ff4f33",
+    "color_small_image_bg": "#ffffff",
+    "color_large_image_bg": "#0f0f0f",
+    "color_header": "#ffffff",
+    "color_header_text": "#000000",
+    "color_announcement": "#0f0f0f",
+    "color_announcement_text": "#ffffff",
+    "color_footer": "#ffffff",
+    "color_footer_text": "#000000",
+    "color_drawer_background": "#ffffff",
+    "color_drawer_text": "#000000",
+    "color_drawer_border": "#e8e8e1",
+    "color_drawer_button": "#111111",
+    "color_drawer_button_text": "#ffffff",
+    "color_modal_overlays": "#e6e6e6",
+    "color_image_overlay": "#000000",
+    "color_image_overlay_text_shadow": 20,
+    "type_header_font_family": "tiemann_n4",
+    "type_header_spacing": "0",
+    "type_header_base_size": 38,
+    "type_header_line_height": 1,
+    "type_header_capitalize": true,
+    "type_headers_align_text": true,
+    "type_base_font_family": "futura_n4",
+    "type_base_spacing": "25",
+    "type_base_size": 16,
+    "type_base_line_height": 1.6,
+    "type_body_align_text": true,
+    "type_navigation_style": "body",
+    "type_navigation_size": 13,
+    "type_navigation_capitalize": true,
+    "type_product_style": "body",
+    "type_collection_font": "body",
+    "type_collection_size": 18,
+    "button_style": "square",
+    "icon_weight": "2px",
+    "icon_linecaps": "miter",
+    "vendor_enable": false,
+    "sku_enable": false,
+    "quantity_enable": false,
+    "variant_type": "button",
+    "inventory_enable": true,
+    "quick_shop_text": "Quick view",
+    "product_grid_image_size": "natural",
+    "product_hover_image": false,
+    "product_color_swatches": false,
+    "collection_color_swatches": false,
+    "product_contact": false,
+    "collection_grid_style": "overlaid-box",
+    "collection_grid_shape": "square",
+    "collection_grid_image": "product",
+    "collection_grid_text_align": "center",
+    "collection_grid_tint": "#000000",
+    "collection_grid_opacity": 10,
+    "collection_grid_gutter": true,
+    "cart_type": "drawer",
+    "cart_notes_enable": false,
+    "cart_terms_conditions_enable": false,
+    "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
+    "social_instagram_link": "https:\/\/instagram.com\/shopify",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -9,77 +80,6 @@
     "checkout_button_color": "#111111",
     "checkout_error_color": "#ff6d6d",
     "breadcrumb": false,
-    "button_style": "square",
-    "cart_notes_enable": false,
-    "cart_terms_conditions_enable": false,
-    "cart_type": "drawer",
-    "collection_color_swatches": false,
-    "collection_grid_gutter": true,
-    "collection_grid_image": "product",
-    "collection_grid_opacity": 10,
-    "collection_grid_shape": "square",
-    "collection_grid_style": "overlaid-box",
-    "collection_grid_text_align": "center",
-    "collection_grid_tint": "#000000",
-    "color_announcement": "#0f0f0f",
-    "color_announcement_text": "#ffffff",
-    "color_body_bg": "#ffffff",
-    "color_body_text": "#000000",
-    "color_borders": "#e8e8e1",
-    "color_button": "#111111",
-    "color_button_text": "#ffffff",
-    "color_cart_dot": "#ff4f33",
-    "color_drawer_background": "#ffffff",
-    "color_drawer_border": "#e8e8e1",
-    "color_drawer_button": "#111111",
-    "color_drawer_button_text": "#ffffff",
-    "color_drawer_text": "#000000",
-    "color_footer": "#ffffff",
-    "color_footer_text": "#000000",
-    "color_header": "#ffffff",
-    "color_header_text": "#000000",
-    "color_image_overlay": "#000000",
-    "color_image_overlay_text_shadow": 20,
-    "color_large_image_bg": "#0f0f0f",
-    "color_modal_overlays": "#e6e6e6",
-    "color_price": "#1c1d1d",
-    "color_savings_text": "#ff4e4e",
-    "color_small_image_bg": "#ffffff",
-    "icon_linecaps": "miter",
-    "icon_weight": "2px",
-    "inventory_enable": true,
-    "product_color_swatches": false,
-    "product_contact": false,
-    "product_grid_image_size": "natural",
-    "product_hover_image": false,
-    "quantity_enable": false,
-    "quick_shop_text": "Quick view",
-    "share_facebook": true,
-    "share_pinterest": true,
-    "share_twitter": true,
-    "sku_enable": false,
-    "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
-    "social_instagram_link": "https:\/\/instagram.com\/shopify",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
-    "type_base_font_family": "futura_n4",
-    "type_base_line_height": 1.6,
-    "type_base_size": 16,
-    "type_base_spacing": "25",
-    "type_body_align_text": true,
-    "type_collection_font": "body",
-    "type_collection_size": 18,
-    "type_header_base_size": 38,
-    "type_header_capitalize": true,
-    "type_header_font_family": "tiemann_n4",
-    "type_header_line_height": 1,
-    "type_header_spacing": "0",
-    "type_headers_align_text": true,
-    "type_navigation_capitalize": true,
-    "type_navigation_size": 13,
-    "type_navigation_style": "body",
-    "type_product_style": "body",
-    "variant_type": "button",
-    "vendor_enable": false,
     "sections": {
       "header": {
         "type": "header",
@@ -125,15 +125,10 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "1494301487048": {
-            "type": "logo_social",
-            "settings": {
-              "container_width": 95
-            }
-          },
           "1494301487049": {
             "type": "menu",
             "settings": {
+              "show_footer_title": false,
               "menu": "footer",
               "container_width": 25
             }
@@ -141,7 +136,17 @@
           "1494292487693": {
             "type": "newsletter",
             "settings": {
+              "show_footer_title": true,
+              "title": "Sign up and save",
+              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
               "container_width": 33
+            }
+          },
+          "1494301487048": {
+            "type": "logo_social",
+            "settings": {
+              "desktop_logo_height": 50,
+              "container_width": 95
             }
           }
         },
@@ -151,7 +156,12 @@
           "1494301487048"
         ],
         "settings": {
-          "show_payment_icons": false
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "show_currency_flags": true,
+          "show_payment_icons": false,
+          "show_copyright": false,
+          "copyright_text": ""
         }
       },
       "collection-template": {
@@ -183,6 +193,8 @@
       "1498163293234": {
         "type": "featured-content",
         "settings": {
+          "title": "",
+          "text": "<p>A sentence or two introducing your brand, what you sell, and what makes your brand compelling to customers.<\/p>",
           "align_text": "center",
           "narrow_column": true,
           "enlarge_text": true,
@@ -206,19 +218,35 @@
         "blocks": {
           "1499789718857-0": {
             "type": "collection",
-            "settings": {}
+            "settings": {
+              "collection": "",
+              "title": "",
+              "focal_point": "center center"
+            }
           },
           "1499789718857-1": {
             "type": "collection",
-            "settings": {}
+            "settings": {
+              "collection": "",
+              "title": "",
+              "focal_point": "center center"
+            }
           },
           "1499789718857-2": {
             "type": "collection",
-            "settings": {}
+            "settings": {
+              "collection": "",
+              "title": "",
+              "focal_point": "center center"
+            }
           },
           "1499789718857-3": {
             "type": "collection",
-            "settings": {}
+            "settings": {
+              "collection": "",
+              "title": "",
+              "focal_point": "center center"
+            }
           }
         },
         "block_order": [
@@ -237,13 +265,19 @@
       "1499790633921": {
         "type": "background-image-text",
         "settings": {
+          "title": "The Best Days Begin",
+          "subtitle": "With a Good Night’s Sleep",
+          "text": "<p>Say goodbye to sleepless nights and say hello to a good night's sleep.<\/p>",
+          "text2": "<p>Our nurture parenting programs have the ability to change your life,<\/p><p>holding your hand and gently guiding you through our kind,<\/p><p>unique and holistic approach<\/p><p>to baby sleep<\/p><p>toddler & child sleep<\/p><p>and child behaviour.<\/p>",
+          "button_label": "View programs",
           "button_link": "shopify:\/\/collections\/all",
+          "image": "shopify:\/\/shop_images\/Banner_f6b95948-41ee-48f9-8889-a1fb63ef2236.jpg",
           "focal_point": "80% 0",
           "color_border": "#cdb8ac",
           "layout": "left",
-          "height": 750,
+          "height": 650,
           "framed": false,
-          "parallax": true
+          "parallax": false
         }
       },
       "product-sections-template": {
@@ -328,7 +362,8 @@
           "sections-1592410318615",
           "sections-1592410272428"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "product-story-sections": {
         "type": "product-story-sections",
@@ -412,14 +447,16 @@
           "1592410318615",
           "1592410272428"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "page-sections-template": {
         "type": "page-sections-template",
         "blocks": {
           "page-image-hero": {
             "type": "image-hero",
-            "settings": {}
+            "settings": {
+            }
           },
           "page-rich-text": {
             "type": "rich-text",
@@ -431,7 +468,8 @@
           },
           "page-text-columns": {
             "type": "text-columns",
-            "settings": {}
+            "settings": {
+            }
           },
           "page-background-image-text": {
             "type": "background-image-text",
@@ -466,49 +504,17 @@
       },
       "newsletter-popup": {
         "type": "newsletter-popup",
-        "settings": {}
-      },
-      "1524769873765": {
-        "type": "slideshow",
-        "blocks": {
-          "1524769873765-0": {
-            "type": "image",
-            "settings": {
-              "title_size": 80,
-              "link": "shopify:\/\/collections\/all",
-              "link_text": "Shop this",
-              "link_2": "shopify:\/\/collections\/all",
-              "link_text_2": "Shop all",
-              "color_accent": "#000000",
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "top center"
-            }
-          },
-          "1524769873765-1": {
-            "type": "image",
-            "settings": {
-              "title_size": 80,
-              "link": "shopify:\/\/collections\/all",
-              "link_text": "Shop all",
-              "link_2": "shopify:\/\/collections\/all",
-              "link_text_2": "Shop all",
-              "color_accent": "#000000",
-              "text_align": "vertical-bottom horizontal-left",
-              "focal_point": "top center"
-            }
-          }
-        },
-        "block_order": [
-          "1524769873765-0",
-          "1524769873765-1"
-        ],
         "settings": {
-          "section_height": "750px",
-          "mobile_height": "auto",
-          "parallax": true,
-          "style": "bars",
-          "autoplay": true,
-          "autoplay_speed": 7
+          "mode": "disabled",
+          "popup_seconds": 5,
+          "popup_days": 30,
+          "popup_title": "Sign up and save",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "close_text": "No thanks",
+          "enable_newsletter": true,
+          "button_label": "Optional button",
+          "button_link": "",
+          "enable_button": false
         }
       },
       "collection-header": {
@@ -524,11 +530,13 @@
         "blocks": {
           "1524772785241": {
             "type": "subcollections",
-            "settings": {}
+            "settings": {
+            }
           },
           "1524772580942": {
             "type": "tags_all",
-            "settings": {}
+            "settings": {
+            }
           }
         },
         "block_order": [
@@ -559,13 +567,23 @@
       },
       "1525118065355": {
         "type": "map",
-        "settings": {}
+        "settings": {
+          "map_title": "Our retail store",
+          "address": "<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>",
+          "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+          "api_key": "",
+          "show_button": true,
+          "background_image_position": "center center"
+        }
       },
       "1525295772132": {
         "type": "featured-collection",
         "settings": {
+          "title": "Featured collection",
+          "home_featured_products": "",
           "per_row": 4,
           "rows": 1,
+          "mobile_scrollable": true,
           "view_all": true,
           "divider": false
         }
@@ -576,11 +594,20 @@
           "1525886482727": {
             "type": "advanced",
             "settings": {
+              "subheading": "Limited time",
+              "heading": "Announce your promotion",
+              "textarea": "Include the smaller details of your promotion in text below the title.",
+              "cta_text1": "Shop This",
               "cta_link1": "shopify:\/\/collections\/all",
+              "cta_text2": "Shop All",
+              "cta_link2": "",
+              "video_url": "",
               "width": "100",
               "height": 720,
               "text_size": 120,
+              "text_align": "vertical-center horizontal-center",
               "focal_point": "80% 50%",
+              "color_accent": "rgba(0,0,0,0)",
               "boxed": false,
               "framed": false
             }
@@ -588,7 +615,13 @@
           "1525886854810": {
             "type": "sale_collection",
             "settings": {
+              "sale_collection": "",
+              "top_text": "Up to",
+              "middle_text": "50% off",
+              "bottom_text": "Select products",
               "width": "50",
+              "color_tint": "#000000",
+              "color_tint_opacity": 0,
               "boxed": false,
               "framed": true
             }
@@ -596,7 +629,13 @@
           "1525911710924": {
             "type": "sale_collection",
             "settings": {
+              "sale_collection": "",
+              "top_text": "Up to",
+              "middle_text": "50% off",
+              "bottom_text": "Select products",
               "width": "50",
+              "color_tint": "#000000",
+              "color_tint_opacity": 0,
               "boxed": false,
               "framed": true
             }
@@ -620,12 +659,20 @@
           "1525912530555-0": {
             "type": "advanced",
             "settings": {
+              "subheading": "Limited time",
+              "heading": "Announce your promotion",
+              "textarea": "Include the smaller details of your promotion in text below the title.",
+              "cta_text1": "Shop This",
               "cta_link1": "shopify:\/\/collections\/all",
+              "cta_text2": "Shop All",
+              "cta_link2": "",
+              "video_url": "",
               "width": "50",
               "height": 800,
               "text_size": 100,
               "text_align": "vertical-center horizontal-center",
               "focal_point": "center",
+              "color_accent": "rgba(0,0,0,0)",
               "boxed": false,
               "framed": true
             }
@@ -633,12 +680,20 @@
           "1525912530555-1": {
             "type": "advanced",
             "settings": {
+              "subheading": "Limited time",
+              "heading": "Announce your promotion",
+              "textarea": "Include the smaller details of your promotion in text below the title.",
+              "cta_text1": "Shop This",
               "cta_link1": "shopify:\/\/collections\/all",
+              "cta_text2": "Shop All",
+              "cta_link2": "",
+              "video_url": "",
               "width": "50",
               "height": 500,
               "text_size": 100,
               "text_align": "vertical-bottom horizontal-center",
               "focal_point": "80% 50%",
+              "color_accent": "rgba(0,0,0,0)",
               "boxed": true,
               "framed": false
             }
@@ -689,16 +744,64 @@
         "settings": {
           "gutter_size": 20
         }
+      },
+      "hero": {
+        "type": "hero",
+        "settings": {
+        }
+      },
+      "footer-promotions": {
+        "type": "footer-promotions",
+        "blocks": {
+          "footer-promotions-0": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "title": "Site-wide promotion",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "button_label": "Optional button",
+              "button_link": ""
+            }
+          },
+          "footer-promotions-1": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "title": "Site-wide promotion",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "button_label": "Optional button",
+              "button_link": ""
+            }
+          },
+          "footer-promotions-2": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "title": "Site-wide promotion",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "button_label": "Optional button",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "footer-promotions-0",
+          "footer-promotions-1",
+          "footer-promotions-2"
+        ],
+        "settings": {
+          "hide_homepage": false,
+          "image_size": "wide"
+        }
       }
     },
     "content_for_index": [
-      "1524769873765",
+      "1499790633921",
       "1498163293234",
       "1525912530555",
       "1499789718857",
       "1525886124958",
       "1525295772132",
-      "1499790633921",
       "1525115199973",
       "1525118065355"
     ]
@@ -911,19 +1014,23 @@
           "blocks": {
             "1499789718857-0": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1499789718857-1": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1499789718857-2": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1499789718857-3": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -1033,7 +1140,8 @@
             "sections-1592410318615",
             "sections-1592410272428"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "product-story-sections": {
           "type": "product-story-sections",
@@ -1117,14 +1225,16 @@
             "1592410318615",
             "1592410272428"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "page-sections-template": {
           "type": "page-sections-template",
           "blocks": {
             "page-image-hero": {
               "type": "image-hero",
-              "settings": {}
+              "settings": {
+              }
             },
             "page-rich-text": {
               "type": "rich-text",
@@ -1136,7 +1246,8 @@
             },
             "page-text-columns": {
               "type": "text-columns",
-              "settings": {}
+              "settings": {
+              }
             },
             "page-background-image-text": {
               "type": "background-image-text",
@@ -1171,7 +1282,8 @@
         },
         "newsletter-popup": {
           "type": "newsletter-popup",
-          "settings": {}
+          "settings": {
+          }
         },
         "1524769873765": {
           "type": "slideshow",
@@ -1229,11 +1341,13 @@
           "blocks": {
             "1524772785241": {
               "type": "subcollections",
-              "settings": {}
+              "settings": {
+              }
             },
             "1524772580942": {
               "type": "tags_all",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -1264,7 +1378,8 @@
         },
         "1525118065355": {
           "type": "map",
-          "settings": {}
+          "settings": {
+          }
         },
         "1525295772132": {
           "type": "featured-collection",
@@ -1727,7 +1842,8 @@
             "sections-1592410318615",
             "sections-1592410272428"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "product-story-sections": {
           "type": "product-story-sections",
@@ -1811,7 +1927,8 @@
             "1592410318615",
             "1592410272428"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "page-sections-template": {
           "type": "page-sections-template",
@@ -2633,7 +2750,8 @@
           "blocks": {
             "1524768779513": {
               "type": "logo",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -2654,7 +2772,8 @@
           "blocks": {
             "1494292487693": {
               "type": "newsletter",
-              "settings": {}
+              "settings": {
+              }
             },
             "1526406521795": {
               "type": "menu",
@@ -2811,7 +2930,8 @@
             "sections-1592410318615",
             "sections-1592410272428"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "product-story-sections": {
           "type": "product-story-sections",
@@ -2895,7 +3015,8 @@
             "1592410318615",
             "1592410272428"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "page-sections-template": {
           "type": "page-sections-template",
@@ -2910,7 +3031,8 @@
             },
             "page-text-columns": {
               "type": "text-columns",
-              "settings": {}
+              "settings": {
+              }
             },
             "page-background-image-text": {
               "type": "background-image-text",
@@ -2943,7 +3065,8 @@
         },
         "newsletter-popup": {
           "type": "newsletter-popup",
-          "settings": {}
+          "settings": {
+          }
         },
         "1524768368258": {
           "type": "slideshow",
@@ -2983,11 +3106,13 @@
           "blocks": {
             "1524772785241": {
               "type": "subcollections",
-              "settings": {}
+              "settings": {
+              }
             },
             "1524772580942": {
               "type": "tags_all",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -3006,15 +3131,18 @@
           "blocks": {
             "1525290496166-0": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1525290496166-2": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1525290496166-1": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
