@@ -1,0 +1,93 @@
+
+.pinkbar {
+    height: 50px; 
+    width:100%; 
+    background-color:#EDC0BD; 
+    display: grid; 
+    align-items: center;
+}
+
+.pinkbarcontent {
+    display: flex;
+    justify-content: right; 
+    padding:0 2em 0 2em; 
+}
+
+.orderinfo {
+    width:fit-content; 
+    display: flex; 
+}
+
+.barfontconfig {
+    color:#361E45; 
+    font-weight: 600;
+    padding-right: 1em; 
+    padding-left: 1em;
+}
+
+.iconset {
+    padding: 0 1em;
+    height: fit-content;
+}
+
+p, a {
+    margin-bottom: 0.1em !important; 
+    color:#361E45 !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    color:#361E45 !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+li {
+    font-size: 16px !important;
+}
+.grid {
+    display: grid;
+    height: 100%;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-links {
+    font-size: 14px; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    text-decoration: none;
+}
+
+.navbar-position {
+    position: absolute; 
+    z-index: 999; 
+    width: 100%;
+}
+
+.navbar-config {
+    padding: 0 1rem; 
+    text-decoration: none;
+}
+
+.icon-size {
+    font-size:22px
+}
+
+.main-button {
+    background-color: #4FD6C5;
+    color: white !important;
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    padding: 0.7em 1.2em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4FD6C5;
+    -webkit-transition: color 0.1s;
+    transition: color 0.1s;
+    
+}
+
+.main-button:hover {
+    background-color: white;
+    color: #4FD6C5 !important;
+}
