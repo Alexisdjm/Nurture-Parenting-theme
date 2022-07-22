@@ -11,10 +11,10 @@
     <div class="pinkbarcontent">
         <div class="grid">
           <div class="orderinfo">
-            <span class="mdi mdi-phone iconset"></span><a href="#" class="contact-links">0412-761-5686</a>
+            <span class="mdi mdi-phone iconset"></span><a href="#" class="contact-links">{{ section.settings.phone_number }}</a>
           </div>
           <div class="orderinfo">
-            <span class="mdi mdi-email-outline iconset"></span><a href="#" class="contact-links">alexis.m29@gmail.com</a>
+            <span class="mdi mdi-email-outline iconset"></span><a href="#" class="contact-links">{{ section.settings.email_address }}</a>
           </div>
         </div>
     </div>
@@ -28,7 +28,7 @@
       </div>
       <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;">
         <ul class="navbar-nav">
-          {% for link in linklists.main-menu.links %}
+          {% for link in linklists.{{ section.settings.main_menu_link_list }}.links %}
             {% assign child_list_handle = link.title | handleize %}
             {% if linklists[child_list_handle].links != blank %}
               <li class="nav-item">
@@ -63,9 +63,9 @@
     </div>
   </nav>
 
-  {% schema %}
+{% schema %}
   {
-   "name": "New Header",
+    "name": "New Header",
     "class": "new-header-np",
     "settings": [
         {
@@ -78,19 +78,19 @@
           "type": "text",
           "id": "email_address",
           "label": "Email address",
-          "default": "example@example.com",
+          "default": "example@example.com"
         },
         {
           "type": "text",
           "id": "phone_number",
           "label": "Phone Number",
-          "default": "+1 470-123-4567",
+          "default": "+1 470-123-4567"
         },
         {
-         "type": "image_picker",
+        "type": "image_picker",
           "id": "logo_page",
           "label": "Logo"
         }
     ]
   }
-  {% endschema %}
+{% endschema %}
