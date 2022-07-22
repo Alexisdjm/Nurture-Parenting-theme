@@ -62,3 +62,35 @@
       </div>
     </div>
   </nav>
+
+  {% schema %}
+  {
+   "name": "New Header",
+    "class": "new-header-np",
+    "settings": [
+        {
+          "type": "link_list",
+          "id": "main_menu_link_list",
+          "label": "Navigation",
+          "default": "main-menu"
+        },
+        {
+          "type": "text",
+          "id": "email_address",
+          "label": "Email address",
+          "default": "example@example.com",
+        },
+        {
+          "type": "text",
+          "id": "phone_number",
+          "label": "Phone Number",
+          "default": "+1 470-123-4567",
+        },
+        {
+         "type": "image_picker",
+          "id": "logo_page",
+          "label": "Logo",
+        },
+    ]
+  }
+  {% endschema %}
