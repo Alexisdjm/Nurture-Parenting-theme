@@ -24,7 +24,9 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div style="width: 90px; height:90px; background-color: blue;"></div>
+      <div style="width: 90px; height:90px;">
+        <img src="{{ /../../assets/nplogo.png | img_url: 'master'}}" alt="">
+      </div>
       <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;">
         <ul class="navbar-nav">
           {% for link in linklists.main-menu.links %}
