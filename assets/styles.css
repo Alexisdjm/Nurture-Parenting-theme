@@ -180,3 +180,10 @@ font-size: 50px;
     width: 100%;
     height: fit-content;
 }
+
+.static-logo-dimensions {
+    padding: 0.5em; 
+    margin: 15px; 
+    width: 180px; 
+    height: 270px;
+}

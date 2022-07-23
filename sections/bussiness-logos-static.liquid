@@ -1,12 +1,48 @@
 <div class="margin-slider-logo-section">
     <div class="static-logo-containe">
-        <div class="row">
-            <div style="padding: 0.5em; margin: 10px; width: 270px; height: 200px;">
-                <img src="{{ section.settings.logo1 | img_url: 'master' }}" alt="">
+        <div class="flex-center">
+            <div class="static-logo-dimensions">
+                <img src="{{ section.settings.logo1 | img_url: 'master' }}">
                 <div class="cien flex-center" style="height:fit-content;">
-                    <h5>{{ section.settings.logo1_text }}</h5>
+                    <p>{{ section.settings.logo1_text }}</p>
                 </div>
             </div>
+            <div class="static-logo-dimensions">
+                <img src="{{ section.settings.logo2 | img_url: 'master' }}">
+                <div class="cien flex-center" style="height:fit-content;">
+                    <p>{{ section.settings.logo2_text }}</p>
+                </div>
+            </div>
+            <div class="static-logo-dimensions">
+                <img src="{{ section.settings.logo3 | img_url: 'master' }}">
+                <div class="cien flex-center" style="height:fit-content;">
+                    <p>{{ section.settings.logo3_text }}</p>
+                </div>
+            </div>
+            {% if section.settings.logo_image8 != blank %}
+                <div class="static-logo-dimensions">
+                    <img src="{{ section.settings.logo4 | img_url: 'master' }}">
+                    <div class="cien flex-center" style="height:fit-content;">
+                        <p>{{ section.settings.logo4_text }}</p>
+                    </div>
+                </div>
+            {% endif %}
+            {% if section.settings.logo_image8 != blank %}
+                <div class="static-logo-dimensions">
+                    <img src="{{ section.settings.logo5 | img_url: 'master' }}">
+                    <div class="cien flex-center" style="height:fit-content;">
+                        <p>{{ section.settings.logo5_text }}</p>
+                    </div>
+                </div>
+            {% endif %}
+            {% if section.settings.logo_image8 != blank %}
+                <div class="static-logo-dimensions">
+                    <img src="{{ section.settings.logo6 | img_url: 'master' }}">
+                    <div class="cien flex-center" style="height:fit-content;">
+                        <p>{{ section.settings.logo6_text }}</p>
+                    </div>
+                </div>
+            {% endif %}
         </div>
     </div>
 </div>
