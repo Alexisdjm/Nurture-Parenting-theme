@@ -653,63 +653,6 @@
           "space_below": false
         }
       },
-      "1525912530555": {
-        "type": "promo-grid",
-        "blocks": {
-          "1525912530555-0": {
-            "type": "advanced",
-            "settings": {
-              "subheading": "Limited time",
-              "heading": "Announce your promotion",
-              "textarea": "Include the smaller details of your promotion in text below the title.",
-              "cta_text1": "Shop This",
-              "cta_link1": "shopify:\/\/collections\/all",
-              "cta_text2": "Shop All",
-              "cta_link2": "",
-              "video_url": "",
-              "width": "50",
-              "height": 800,
-              "text_size": 100,
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "center",
-              "color_accent": "rgba(0,0,0,0)",
-              "boxed": false,
-              "framed": true
-            }
-          },
-          "1525912530555-1": {
-            "type": "advanced",
-            "settings": {
-              "subheading": "Limited time",
-              "heading": "Announce your promotion",
-              "textarea": "Include the smaller details of your promotion in text below the title.",
-              "cta_text1": "Shop This",
-              "cta_link1": "shopify:\/\/collections\/all",
-              "cta_text2": "Shop All",
-              "cta_link2": "",
-              "video_url": "",
-              "width": "50",
-              "height": 500,
-              "text_size": 100,
-              "text_align": "vertical-bottom horizontal-center",
-              "focal_point": "80% 50%",
-              "color_accent": "rgba(0,0,0,0)",
-              "boxed": true,
-              "framed": false
-            }
-          }
-        },
-        "block_order": [
-          "1525912530555-0",
-          "1525912530555-1"
-        ],
-        "settings": {
-          "full_width": true,
-          "gutter_size": 20,
-          "space_above": false,
-          "space_below": false
-        }
-      },
       "collection-promotions": {
         "type": "collection-promotions",
         "blocks": {
@@ -751,7 +694,7 @@
           "main_menu_link_list": "main-menu",
           "email_address": "alexis.jm29@gmail.com",
           "phone_number": "+58-0412-761-5686",
-          "logo_page": "shopify:\/\/shop_images\/logo.webp"
+          "image": "shopify:\/\/shop_images\/logo.webp"
         }
       },
       "footer-promotions": {
@@ -802,7 +745,6 @@
     "content_for_index": [
       "1499790633921",
       "1498163293234",
-      "1525912530555",
       "1499789718857",
       "1525886124958",
       "1525295772132",
