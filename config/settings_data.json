@@ -777,7 +777,14 @@
         "type": "featured-logos",
         "settings": {
           "item_title": "este es un item",
-          "logo_image": "shopify:\/\/shop_images\/Frame_340.png"
+          "logo_image1": "shopify:\/\/shop_images\/Frame_339.png",
+          "logo_image2": "shopify:\/\/shop_images\/Frame_340.png",
+          "logo_image3": "shopify:\/\/shop_images\/Frame_341.png",
+          "logo_image4": "shopify:\/\/shop_images\/Frame_342.png",
+          "logo_image5": "shopify:\/\/shop_images\/Frame_343.png",
+          "logo_image6": "shopify:\/\/shop_images\/Frame_344.png",
+          "logo_image7": "shopify:\/\/shop_images\/Frame_345.png",
+          "logo_image8": "shopify:\/\/shop_images\/Frame_346.png"
         }
       }
     },
