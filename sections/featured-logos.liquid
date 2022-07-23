@@ -2,11 +2,24 @@
     <div class="h5">Circular carousel (infinite)</div>
         <div class="carousel">
             <div class="slider">
-                <section>Content section 1</section>
-                <section>Content section 2</section>
-                <section>Content section 3</section>
-                <section>Content section 4</section>
-                <section>Content section 5</section>
+                <div class="item-container">
+                    <img src="{{ section.settings.logo_image | img_url: 'master' }}" alt="">
+                </div>
+                <div class="item-container">
+                    <img src="{{ section.settings.logo_image | img_url: 'master' }}" alt="">
+                </div>
+                <div class="item-container">
+                    <img src="{{ section.settings.logo_image | img_url: 'master' }}" alt="">
+                </div>
+                <div class="item-container">
+                    <img src="{{ section.settings.logo_image | img_url: 'master' }}" alt="">
+                </div>
+                <div class="item-container">
+                    <img src="{{ section.settings.logo_image | img_url: 'master' }}" alt="">
+                </div>
+                <div class="item-container">
+                    <img src="{{ section.settings.logo_image | img_url: 'master' }}" alt="">
+                </div>
             </div>
             <div class="controls">
                 <button class="next"><i class="fa-solid fa-chevron-right"></i></button>
@@ -26,6 +39,11 @@
                 "id": "item_title",
                 "label": "item slider",
                 "default": "este es un item"
+            },
+            {
+               "type": "image_picker",
+               "id": "logo_image",
+               "label": "logo_featured"
             }
         ],
        "presets": [
