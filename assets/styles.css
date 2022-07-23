@@ -129,7 +129,8 @@ background: none;
 border: none;
 cursor: pointer;
 outline: none;
-color: #361E45;
+color: #361e45;
+opacity: 0;
 }
 .controls button.prev {
 position: absolute;
@@ -140,7 +141,17 @@ border: none;
 cursor: pointer;
 outline: none;
 color: #361E45;
+opacity: 0;
 }
+
+button.prev:hover {
+    opacity: 1;
+}
+
+button.next:hover {
+    opacity: 1;
+}
+
 .controls button i {
 font-size: 50px;
 }
