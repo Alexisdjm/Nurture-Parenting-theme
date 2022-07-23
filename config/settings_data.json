@@ -791,9 +791,12 @@
         "type": "bussiness-logos-static",
         "settings": {
           "logo1": "shopify:\/\/shop_images\/Frame_365.png",
-          "logo1_text": "First logo text",
-          "logo2_text": "Second logo text",
-          "logo3_text": "Third logo text",
+          "logo1_text": "20+ YEARS SLEEP CONSULTANT EXPERIENCE",
+          "logo2": "shopify:\/\/shop_images\/Frame_364.png",
+          "logo2_text": "30+ YEARS MIDWIFE EXPERIENCE",
+          "logo3": "shopify:\/\/shop_images\/Frame_356.png",
+          "logo3_text": "2 PSYCHOLOGICAL DEGREES",
+          "logo4": "shopify:\/\/shop_images\/Frame_357.png",
           "logo4_text": "fourth logo text",
           "logo5_text": "fifth logo text",
           "logo6_text": "sixth logo text"
