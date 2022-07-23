@@ -750,7 +750,8 @@
         "settings": {
           "main_menu_link_list": "main-menu",
           "email_address": "alexis.jm29@gmail.com",
-          "phone_number": "+58-0412-761-5686"
+          "phone_number": "+58-0412-761-5686",
+          "logo_page": "shopify:\/\/shop_images\/logo.webp"
         }
       },
       "footer-promotions": {
