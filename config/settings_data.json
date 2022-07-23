@@ -772,10 +772,17 @@
           "autoplay": true,
           "autoplay_speed": 5
         }
+      },
+      "1658545910470a0531": {
+        "type": "featured-logos",
+        "settings": {
+          "item_title": "este es un item"
+        }
       }
     },
     "content_for_index": [
       "1499790633921",
+      "1658545910470a0531",
       "1498163293234",
       "1499789718857",
       "1525886124958",
