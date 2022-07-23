@@ -748,6 +748,9 @@
       "hero": {
         "type": "hero",
         "settings": {
+          "main_menu_link_list": "main-menu",
+          "email_address": "alexis.jm29@gmail.com",
+          "phone_number": "+58-0412-761-5686"
         }
       },
       "footer-promotions": {
