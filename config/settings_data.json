@@ -776,7 +776,8 @@
       "1658545910470a0531": {
         "type": "featured-logos",
         "settings": {
-          "item_title": "este es un item"
+          "item_title": "este es un item",
+          "logo_image": "shopify:\/\/shop_images\/Frame_340.png"
         }
       }
     },
