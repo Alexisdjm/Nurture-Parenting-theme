@@ -786,6 +786,18 @@
           "logo_image7": "shopify:\/\/shop_images\/Frame_345.png",
           "logo_image8": "shopify:\/\/shop_images\/Frame_346.png"
         }
+      },
+      "1658559957e5678ccb": {
+        "type": "bussiness-logos-static",
+        "settings": {
+          "logo1": "shopify:\/\/shop_images\/Frame_365.png",
+          "logo1_text": "First logo text",
+          "logo2_text": "Second logo text",
+          "logo3_text": "Third logo text",
+          "logo4_text": "fourth logo text",
+          "logo5_text": "fifth logo text",
+          "logo6_text": "sixth logo text"
+        }
       }
     },
     "content_for_index": [
@@ -797,7 +809,8 @@
       "1525295772132",
       "1525115199973",
       "1525118065355",
-      "1658538251374f2431"
+      "1658538251374f2431",
+      "1658559957e5678ccb"
     ]
   },
   "presets": {
