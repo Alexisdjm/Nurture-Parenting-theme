@@ -28,7 +28,7 @@
       </div>
       <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;">
         <ul class="navbar-nav">
-          {% for link in linklists.{{ section.settings.main_menu_link_list }}.links %}
+          {% for link in linklists.main-menu.links %}
             {% assign child_list_handle = link.title | handleize %}
             {% if linklists[child_list_handle].links != blank %}
               <li class="nav-item">
@@ -61,36 +61,36 @@
         </ul>
       </div>
     </div>
-  </nav>
+</nav>
 
 {% schema %}
   {
     "name": "New Header",
     "class": "new-header-np",
     "settings": [
-        {
-          "type": "link_list",
-          "id": "main_menu_link_list",
-          "label": "Navigation",
-          "default": "main-menu"
-        },
-        {
-          "type": "text",
-          "id": "email_address",
-          "label": "Email address",
-          "default": "example@example.com"
-        },
-        {
-          "type": "text",
-          "id": "phone_number",
-          "label": "Phone Number",
-          "default": "+1 470-123-4567"
-        },
-        {
-        "type": "image_picker",
-          "id": "logo_page",
-          "label": "Logo"
-        }
+      {
+        "type": "link_list",
+        "id": "main_menu_link_list",
+        "label": "Navigation",
+        "default": "main-menu"
+      },
+      {
+        "type": "text",
+        "id": "email_address",
+        "label": "Email address",
+        "default": "example@example.com"
+      },
+      {
+        "type": "text",
+        "id": "phone_number",
+        "label": "Phone Number",
+        "default": "+1 470-123-4567"
+      },
+      {
+      "type": "image_picker",
+        "id": "logo_page",
+        "label": "Logo"
+      }
     ]
   }
 {% endschema %}
