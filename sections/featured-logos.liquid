@@ -3,23 +3,39 @@
         <div class="carousel">
             <div class="slider">
                 <div class="item-container">
-                    <img src="{{ section.settings.logo_image | img_url: 'master' }}" alt="">
+                    <img src="{{ section.settings.logo_image1 | img_url: 'master' }}" alt="">
                 </div>
                 <div class="item-container">
-                    <img src="{{ section.settings.logo_image | img_url: 'master' }}" alt="">
+                    <img src="{{ section.settings.logo_image2 | img_url: 'master' }}" alt="">
                 </div>
                 <div class="item-container">
-                    <img src="{{ section.settings.logo_image | img_url: 'master' }}" alt="">
+                    <img src="{{ section.settings.logo_image3 | img_url: 'master' }}" alt="">
                 </div>
-                <div class="item-container">
-                    <img src="{{ section.settings.logo_image | img_url: 'master' }}" alt="">
-                </div>
-                <div class="item-container">
-                    <img src="{{ section.settings.logo_image | img_url: 'master' }}" alt="">
-                </div>
-                <div class="item-container">
-                    <img src="{{ section.settings.logo_image | img_url: 'master' }}" alt="">
-                </div>
+                {% if section.settings.title != blank %}
+                    <div class="item-container">
+                        <img src="{{ section.settings.logo_image4 | img_url: 'master' }}" alt="">
+                    </div>
+                {% endif %}
+                {% if section.settings.title != blank %}
+                    <div class="item-container">
+                        <img src="{{ section.settings.logo_image5 | img_url: 'master' }}" alt="">
+                    </div>
+                {% endif %}
+                {% if section.settings.title != blank %}
+                    <div class="item-container">
+                        <img src="{{ section.settings.logo_image6 | img_url: 'master' }}" alt="">
+                    </div>
+                {% endif %}
+                {% if section.settings.title != blank %}
+                    <div class="item-container">
+                        <img src="{{ section.settings.logo_image7 | img_url: 'master' }}" alt="">
+                    </div>
+                {% endif %}
+                {% if section.settings.title != blank %}
+                    <div class="item-container">
+                        <img src="{{ section.settings.logo_image8 | img_url: 'master' }}" alt="">
+                    </div>
+                {% endif %}
             </div>
             <div class="controls">
                 <button class="next"><i class="fa-solid fa-chevron-right"></i></button>
