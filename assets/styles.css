@@ -121,12 +121,12 @@ li {
   
 }
 .item-container {
-flex-basis: 20%;
 flex-shrink: 0;
 display: flex;
 justify-content: center;
 align-items: center;
 font-size: 20px;
+margin: 0 5px;
 }
 .controls button.next {
 position: absolute;
