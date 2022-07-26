@@ -3,9 +3,9 @@
         <div class="carousel" style="height: fit-content !important; margin-left: 30px;">
             <div class="slider" style="justify-content: space-around">
                 {% for product in collections[section.settings.Programs_available].products %}
-                    <div>
-                        <div style="width: fit-content; height: auto; margin-bottom: 10px;">
-                            <img  width="30%" height="auto" src="{{ product.featured_media.preview_image | image_url }}">
+                    <div style="width: 30%; height:auto">
+                        <div style="width: 100%; height: fit-content; margin-bottom: 10px;">
+                            <img src="{{ product.featured_media.preview_image | image_url }}">
                         </div>
                         <div style="width: 60%; margin-top: 15px; display: flex; justify-content: center;">
                             <p style="text-align: center;">{{ product.title }}</p>
