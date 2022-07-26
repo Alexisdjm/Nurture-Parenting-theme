@@ -1,14 +1,16 @@
 <div class="margin-slider-logo-section">
     <h5 class="flex-center" style="margin: 50px 0; text-transform: capitalize !important">Our Programs</h5>
-        <div class="carousel" style="height: fit-content !important;">
+        <div class="carousel" style="height: fit-content !important; margin-left: 30px;">
             <div class="slider">
                 {% for product in collections[section.settings.Programs_available].products %}
-                    <div>
+                    <div style="margin: 0 10px;">
                         <div style="width: 300px; height:300px; margin-bottom: 10px;">
-                            <img  width="300" height="300" src="{{ product.featured_media.preview_image | image_url }}">
+                            <img  width="552" height="540" src="{{ product.featured_media.preview_image | image_url }}">
                         </div>
-                        <p style="text-align: center; margin: 10px 0">{{ product.title }}</p>
-                        <p style="text-align:center">{{ product.price | money_without_trailing_zeros }}</p>
+                        <div style="width: 60%; margin-top: 15px;">
+                            <p style="text-align: center;">{{ product.title }}</p>
+                            <p style="text-align:center">{{ product.price | money_without_trailing_zeros }}</p>
+                        </div>
                     </div>
                 {% endfor %}
             </div>
