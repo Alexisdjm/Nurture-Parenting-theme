@@ -805,7 +805,7 @@
       "16588130348da4b7e5": {
         "type": "slider-products",
         "settings": {
-          "Programs_available": "",
+          "Programs_available": "programs",
           "title": ""
         }
       }
