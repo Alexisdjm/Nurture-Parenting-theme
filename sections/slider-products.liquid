@@ -1,4 +1,4 @@
-<div class="margin-slider-logo-section">
+<!-- <div class="margin-slider-logo-section">
     <h5 class="flex-center" style="margin: 50px 0; text-transform: capitalize !important">Our Programs</h5>
         <div class="carousel" style="height: fit-content !important; margin-left: 30px;">
             <div class="slider" style="justify-content: space-around">
@@ -20,7 +20,23 @@
             </div>
         </div>
     </div>
+</div> -->
+
+<div style="display: flex; justify-content:left; overflow-x:auto; width: 100%;">
+    {% for product in collections[section.settings.Programs_available].products %}
+        <div style="width: 300px; height:auto; margin: 0 5px;">
+            <div style="width: 100%; height: fit-content; margin-bottom: 10px;">
+                <img src="{{ product.featured_media.preview_image | image_url }}">
+            </div>
+            <div style="width: 60%; margin-top: 15px; text-align: center;">
+                <p>{{ product.title }}</p>
+                <p>{{ product.price | money_without_trailing_zeros }}</p>
+            </div>
+        </div>
+    {% endfor %}
 </div>
+
+
 {% schema %}
     {
         "name": "Program slider",
@@ -35,11 +51,6 @@
             "type": "text",
             "id": "title",
             "label": "title"
-            },
-            {
-               "type": "image_picker",
-               "id": "image",
-               "label": "image"
             }
         ],
        "presets": [
