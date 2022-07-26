@@ -1,0 +1,39 @@
+<div style="width: fit-content; height:300px">
+    <h3 style="margin: 60px 0;">Our Programs</h3>
+    {% for product in collections[section.settings.Programs_available].products %}
+        <div class="carousel">
+            <div class="slider">
+                <div style="width: 29%; height: 550px; border-style: solid; margin:20px">
+                    <div style="width: 300px; height: 300px">
+                        <img src="{{ product.featured_media.preview_image | img_url | alt="{{ product.title }}" }}">
+                    </div>
+                    <br> 
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% schema %}
+    {
+        "name": "Program slider",
+        "class": "Programs",
+        "settings": [
+            {
+            "type": "collection",
+            "id": "Programs_available",
+            "label": "Programs"
+            },
+            {
+            "type": "text",
+            "id": "title",
+            "lable": "title"
+            }
+        ],
+       "presets": [
+            {
+                "category": "collection",
+                "name":"Specific collection"
+            }
+       ]
+    }
+{% endschema %}
