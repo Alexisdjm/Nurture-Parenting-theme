@@ -206,3 +206,20 @@ font-size: 50px;
 .fit-content-y {
     height: fit-content;
 }
+
+.carousel-container {
+    display: flex; 
+    justify-content:left; 
+    overflow-x:auto; 
+    width: 100%;
+}
+
+.carousel-container::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+.carousel-item{
+    min-width: 300px; 
+    height:auto; 
+    margin: 0 5px;
+}
