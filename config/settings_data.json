@@ -801,10 +801,18 @@
           "logo5_text": "fifth text",
           "logo6_text": "sixth logo text"
         }
+      },
+      "16588130348da4b7e5": {
+        "type": "slider-products",
+        "settings": {
+          "Programs_available": "",
+          "title": ""
+        }
       }
     },
     "content_for_index": [
       "1499790633921",
+      "16588130348da4b7e5",
       "1658545910470a0531",
       "1498163293234",
       "1658559957e5678ccb",
