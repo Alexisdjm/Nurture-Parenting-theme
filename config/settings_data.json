@@ -806,7 +806,8 @@
         "type": "slider-products",
         "settings": {
           "Programs_available": "programs",
-          "title": ""
+          "title": "",
+          "image": "shopify:\/\/shop_images\/bbcover.jpg"
         }
       }
     },
