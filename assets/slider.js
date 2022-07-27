@@ -1,10 +1,5 @@
 const carousel = document.querySelector('.carousel-container');
-const items = document.querySelectorAll('.container-items')
 const slider = document.querySelector('.slider');
-
-items.forEach((item, i) => {
-  console.log("llego el item")
-});
 
 const next = document.querySelector('.next');
 const prev = document.querySelector('.prev');
