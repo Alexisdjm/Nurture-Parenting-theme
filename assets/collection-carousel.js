@@ -1,5 +1,3 @@
-////////////////////////////////// collection carousel //////////////////////////////////////////////////////////
-
 const carousel = document.querySelector('.carousel-container');
 const slider = document.querySelector('.upper-carousel-container');
 
