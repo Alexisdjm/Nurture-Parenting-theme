@@ -802,18 +802,16 @@
           "logo6_text": "sixth logo text"
         }
       },
-      "16588130348da4b7e5": {
+      "165888049299eb1215": {
         "type": "slider-products",
         "settings": {
           "Programs_available": "programs",
-          "title": "",
-          "image": "shopify:\/\/shop_images\/bbcover.jpg"
+          "title": ""
         }
       }
     },
     "content_for_index": [
       "1499790633921",
-      "16588130348da4b7e5",
       "1658545910470a0531",
       "1498163293234",
       "1658559957e5678ccb",
@@ -822,7 +820,8 @@
       "1525295772132",
       "1525115199973",
       "1525118065355",
-      "1658538251374f2431"
+      "1658538251374f2431",
+      "165888049299eb1215"
     ]
   },
   "presets": {
