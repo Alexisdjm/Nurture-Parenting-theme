@@ -5,9 +5,7 @@ const arrownext = document.querySelector('.arrownext');
 const arrowprev = document.querySelector('.arrowprev');
 let direction1;
 
-items.forEach((i) => {
-    console.log(i);
-});
+console.log(items.length());
 
 arrownext.addEventListener('click', function() {
     console.log("next")
