@@ -190,17 +190,6 @@
           "social_sharing_blog": true
         }
       },
-      "1498163293234": {
-        "type": "featured-content",
-        "settings": {
-          "title": "",
-          "text": "<p>A sentence or two introducing your brand, what you sell, and what makes your brand compelling to customers.<\/p>",
-          "align_text": "center",
-          "narrow_column": true,
-          "enlarge_text": true,
-          "divider": false
-        }
-      },
       "blog-template": {
         "type": "blog-template",
         "settings": {
@@ -802,20 +791,18 @@
           "logo6_text": "sixth logo text"
         }
       },
-      "16588130348da4b7e5": {
+      "165888049299eb1215": {
         "type": "slider-products",
         "settings": {
           "Programs_available": "programs",
-          "title": "",
-          "image": "shopify:\/\/shop_images\/bbcover.jpg"
+          "title": ""
         }
       }
     },
     "content_for_index": [
       "1499790633921",
-      "16588130348da4b7e5",
       "1658545910470a0531",
-      "1498163293234",
+      "165888049299eb1215",
       "1658559957e5678ccb",
       "1499789718857",
       "1525886124958",
