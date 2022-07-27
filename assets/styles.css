@@ -218,7 +218,7 @@ font-size: 50px;
     visibility: hidden;
 }
 
-span {
+.arrow {
     font-size: 60px;
     color: #361E45;
     cursor: pointer;
@@ -227,7 +227,7 @@ span {
     top: 40%;
 }
 
-span:nth-of-type(2){
+.arrow:nth-of-type(2){
     left: 98%;
     text-align: center;
 }
