@@ -5,7 +5,7 @@
         </div>
         <div>
             <h4>{{ section.settings.title }}</h4>
-            <p>{{ section.settings.article }}</p>
+            {{ section.settings.article }}
         </div>
     </div>
 </div>
@@ -27,12 +27,14 @@
             {
                 "type": "text",
                 "id": "title",
+                "label": "title",
                 "default": "title of article"
             },
             {
-               "type": "richtext",
-               "id": "article",
-              "default": "content of your article"
+                "type": "richtext",
+                "id": "article",
+                "label": "article",
+                "default": "<p>content of your article</p>"
             }
         ],
        "presets": [
