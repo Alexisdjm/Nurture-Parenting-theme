@@ -5,7 +5,7 @@ const arrownext = document.querySelector('.arrownext');
 const arrowprev = document.querySelector('.arrowprev');
 let direction1;
 
-items.forEach((item, i) => {
+items.forEach((i) => {
     console.log(i);
 });
 let containerdimensions = item.getBoundingClientRect();
