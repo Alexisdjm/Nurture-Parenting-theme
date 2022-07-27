@@ -1,4 +1,4 @@
-const carousel = document.querySelector('.carousel');
+const carousel = document.querySelector('.carousel-container');
 const slider = document.querySelector('.slider');
 
 const next = document.querySelector('.next');

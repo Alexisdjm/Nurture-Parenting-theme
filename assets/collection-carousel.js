@@ -1,21 +1,24 @@
 ////////////////////////////////// collection carousel //////////////////////////////////////////////////////////
 
-const productcontainer = [...document.querySelectorAll('.carousel-element')];
+const carousel = document.querySelector('.carousel-container');
+const slider = document.querySelector('.upper-carousel-container');
 
-const arrownext = [...document.querySelector('.arrownext')];
-const arrowprev = [...document.querySelector('.arrowprev')];
+const arrownext = document.querySelector('.arrownext');
+const arrowprev = document.querySelector('.arrowprev');
+let direction;
 
-productcontainer.forEach((item) => {
-  let containerdimensions = item.getBoundingClientRect();
-  let containerwidth = containerdimensions.width;
+arrownext.addEventListener('click', function() {
+  direction = -1;
+  carousel.style.justifyContent = 'flex-start';
+  slider.style.transform = 'translate(-40%)';  
+});
 
-  arrownext.addEventListener('click', () => {
-    console.log("funciona")
-    item.scrollLeft += containerwidth;
-  });
-
-  arrowprev.addEventListener('click', () => {
-    console.log("funciona")
-    item.scrollLeft -= containerwidth;
-  });
-}) 
+arrowprev.addEventListener('click', function() {
+  if (direction === -1) {
+    direction = 1;
+    slider.appendChild(slider.firstElementChild);
+  }
+  carousel.style.justifyContent = 'flex-end';    
+  slider.style.transform = 'translate(40%)';  
+  
+});
