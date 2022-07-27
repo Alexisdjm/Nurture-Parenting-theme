@@ -202,55 +202,6 @@
           "blog_image_size": "wide"
         }
       },
-      "1499789718857": {
-        "type": "featured-collections",
-        "blocks": {
-          "1499789718857-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "1499789718857-1": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "1499789718857-2": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "1499789718857-3": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "title": "",
-              "focal_point": "center center"
-            }
-          }
-        },
-        "block_order": [
-          "1499789718857-0",
-          "1499789718857-1",
-          "1499789718857-2",
-          "1499789718857-3"
-        ],
-        "settings": {
-          "title": "Shop by category",
-          "divider": false,
-          "per_row": 4,
-          "enable_gutter": true
-        }
-      },
       "1499790633921": {
         "type": "background-image-text",
         "settings": {
@@ -539,109 +490,6 @@
           "enable_sort": true
         }
       },
-      "1525115199973": {
-        "type": "blog-posts",
-        "settings": {
-          "title": "From the journal",
-          "blog": "news",
-          "post_limit": 3,
-          "blog_show_tags": false,
-          "blog_show_date": true,
-          "blog_show_comments": false,
-          "blog_show_author": false,
-          "view_all": true,
-          "blog_image_size": "wide",
-          "divider": false
-        }
-      },
-      "1525118065355": {
-        "type": "map",
-        "settings": {
-          "map_title": "Our retail store",
-          "address": "<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>",
-          "map_address": "301 Front St W, Toronto, ON M5V 2T6",
-          "api_key": "",
-          "show_button": true,
-          "background_image_position": "center center"
-        }
-      },
-      "1525295772132": {
-        "type": "featured-collection",
-        "settings": {
-          "title": "Featured collection",
-          "home_featured_products": "",
-          "per_row": 4,
-          "rows": 1,
-          "mobile_scrollable": true,
-          "view_all": true,
-          "divider": false
-        }
-      },
-      "1525886124958": {
-        "type": "promo-grid",
-        "blocks": {
-          "1525886482727": {
-            "type": "advanced",
-            "settings": {
-              "subheading": "Limited time",
-              "heading": "Announce your promotion",
-              "textarea": "Include the smaller details of your promotion in text below the title.",
-              "cta_text1": "Shop This",
-              "cta_link1": "shopify:\/\/collections\/all",
-              "cta_text2": "Shop All",
-              "cta_link2": "",
-              "video_url": "",
-              "width": "100",
-              "height": 720,
-              "text_size": 120,
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "80% 50%",
-              "color_accent": "rgba(0,0,0,0)",
-              "boxed": false,
-              "framed": false
-            }
-          },
-          "1525886854810": {
-            "type": "sale_collection",
-            "settings": {
-              "sale_collection": "",
-              "top_text": "Up to",
-              "middle_text": "50% off",
-              "bottom_text": "Select products",
-              "width": "50",
-              "color_tint": "#000000",
-              "color_tint_opacity": 0,
-              "boxed": false,
-              "framed": true
-            }
-          },
-          "1525911710924": {
-            "type": "sale_collection",
-            "settings": {
-              "sale_collection": "",
-              "top_text": "Up to",
-              "middle_text": "50% off",
-              "bottom_text": "Select products",
-              "width": "50",
-              "color_tint": "#000000",
-              "color_tint_opacity": 0,
-              "boxed": false,
-              "framed": true
-            }
-          }
-        },
-        "block_order": [
-          "1525886482727",
-          "1525886854810",
-          "1525911710924"
-        ],
-        "settings": {
-          "full_width": false,
-          "gutter_size": 20,
-          "space_above": false,
-          "space_below": false
-        }
-      },
       "collection-promotions": {
         "type": "collection-promotions",
         "blocks": {
@@ -730,38 +578,6 @@
           "image_size": "wide"
         }
       },
-      "1658538251374f2431": {
-        "type": "slideshow",
-        "blocks": {
-          "1658538251374f2431-0": {
-            "type": "image",
-            "settings": {
-              "top_subheading": "",
-              "title": "Endless\npossibilities.",
-              "title_size": 80,
-              "subheading": "Bring your brand to life",
-              "link": "",
-              "link_text": "Optional button",
-              "link_2": "",
-              "link_text_2": "",
-              "color_accent": "rgba(0,0,0,0)",
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "center center"
-            }
-          }
-        },
-        "block_order": [
-          "1658538251374f2431-0"
-        ],
-        "settings": {
-          "section_height": "650px",
-          "mobile_height": "auto",
-          "parallax": true,
-          "style": "minimal",
-          "autoplay": true,
-          "autoplay_speed": 5
-        }
-      },
       "1658545910470a0531": {
         "type": "featured-logos",
         "settings": {
@@ -797,6 +613,14 @@
           "Programs_available": "programs",
           "title": ""
         }
+      },
+      "16588990791c6df038": {
+        "type": "big-image-background",
+        "settings": {
+          "big_image": "shopify:\/\/shop_images\/IMG_9841.png",
+          "title": "title of article",
+          "article": "<p>content of your article<\/p>"
+        }
       }
     },
     "content_for_index": [
@@ -804,12 +628,7 @@
       "1658545910470a0531",
       "165888049299eb1215",
       "1658559957e5678ccb",
-      "1499789718857",
-      "1525886124958",
-      "1525295772132",
-      "1525115199973",
-      "1525118065355",
-      "1658538251374f2431"
+      "16588990791c6df038"
     ]
   },
   "presets": {
