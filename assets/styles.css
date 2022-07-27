@@ -218,8 +218,16 @@ font-size: 50px;
     visibility: hidden;
 }
 
-.carousel-item{
-    min-width: 300px !important; 
-    height: auto !important;; 
-    margin: 0 5px !important;
+span {
+    font-size: 60px;
+    color: #361E45;
+    cursor: pointer;
+    z-index: 2;
+    font-weight: bold;
+    top: 40%;
+}
+
+span:nth-of-type(2){
+    left: 98%;
+    text-align: center;
 }
