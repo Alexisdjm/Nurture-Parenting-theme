@@ -618,6 +618,7 @@
         "type": "big-image-background",
         "settings": {
           "big_image": "shopify:\/\/shop_images\/IMG_9841.png",
+          "background": "shopify:\/\/shop_images\/Frame_349.png",
           "title": "title of article",
           "article": "<p>content of your article<\/p>"
         }
