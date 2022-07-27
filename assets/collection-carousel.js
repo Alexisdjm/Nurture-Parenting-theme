@@ -9,12 +9,12 @@ items.forEach((item, i) => {
     let containerdimensions = item.getBoundingClientRect();
     let containerwidth = containerdimensions.width;
 
-    arrownext[i].addEventListener('click', function() {
+    arrownext.addEventListener('click', function() {
         console.log("next")
         item.scrollLeft += containerwidth;
     });
     
-    arrowprev[i].addEventListener('click', function() {
+    arrowprev.addEventListener('click', function() {
         console.log("prev")
         item.scrollLeft -= containerwidth;
     });
