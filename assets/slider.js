@@ -39,7 +39,7 @@ slider.addEventListener('transitionend', function() {
 
 ////////////////////////////////// collection carousel //////////////////////////////////////////////////////////
 
-var arrow = document.getElementById('arrow');
+var arrow = document.getElementBytagName('span');
 var container = document.getElementById('carousel-element');
 var l = 0;
 
