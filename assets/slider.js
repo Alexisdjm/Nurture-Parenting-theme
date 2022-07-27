@@ -2,7 +2,7 @@ const carousel = document.querySelector('.carousel-container');
 const items = document.querySelectorAll('.container-items')
 const slider = document.querySelector('.slider');
 
-array.forEach((item, i) => {
+items.forEach((item, i) => {
   console.log("llego el item")
 });
 
