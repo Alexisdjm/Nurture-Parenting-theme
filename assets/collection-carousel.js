@@ -5,17 +5,18 @@ const arrownext = document.querySelector('.arrownext');
 const arrowprev = document.querySelector('.arrowprev');
 let direction1;
 
-items.forEach((item) => {
-    let containerdimensions = item.getBoundingClientRect();
-    let containerwidth = containerdimensions.width;
+items.forEach((item, i) => {
+    console.log(i);
+});
+let containerdimensions = item.getBoundingClientRect();
+let containerwidth = containerdimensions.width;
 
-    arrownext.addEventListener('click', function() {
-        console.log("next")
-        item.scrollLeft += containerwidth;
-    });
+arrownext.addEventListener('click', function() {
+    console.log("next")
     
-    arrowprev.addEventListener('click', function() {
-        console.log("prev")
-        item.scrollLeft -= containerwidth;
-    });
+});
+
+arrowprev.addEventListener('click', function() {
+    console.log("prev")
+    
 });
