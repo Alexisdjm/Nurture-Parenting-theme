@@ -8,8 +8,8 @@ let direction1;
 items.forEach((i) => {
     console.log(i);
 });
-let containerdimensions = item.getBoundingClientRect();
-let containerwidth = containerdimensions.width;
+// let containerdimensions = item.getBoundingClientRect();
+// let containerwidth = containerdimensions.width;
 
 arrownext.addEventListener('click', function() {
     console.log("next")
