@@ -39,29 +39,20 @@ slider.addEventListener('transitionend', function() {
 
 ////////////////////////////////// collection carousel //////////////////////////////////////////////////////////
 
-var arrow = document.getElementsByTagName('span');
-var container = document.getElementById('carousel-element');
-var l = 0;
+const productcontainer = [...document.querySelectorAll('.carousel-element')];
 
-arrow[1].onclick = () =>{
-  l++;
-  for(var i of container) {
-    if (l == 0) {i.style.left = "0px";}
-    if (l == 1) {i.style.left = "-740px";}
-    if (l == 2) {i.style.left = "-1480px";}
-    if (l == 3) {i.style.left = "-2220px";}
-    if (l == 4) {i.style.left = "-2960px";}
-    if (l > 4) {l = 4;}
-  }
-}
+const arrownext = [...document.querySelectorAll('.arrownext')];
+const arrowprev = [...document.querySelectorAll('.arrowprev')];
 
-arrow[0].onclick = () =>{
-  l--;
-  for(var i of container) {
-    if (l == 0) {i.style.left = "0px";}
-    if (l == 1) {i.style.left = "-740px";}
-    if (l == 2) {i.style.left = "-1480px";}
-    if (l == 3) {i.style.left = "-2220px";}
-    if (l < 0) {l = 0;}
-  }
-}
+productcontainer.forEach((item, i) => {
+  let containerdimensions = item.getBoundingClientRect();
+  let containerwidth = containerdimensions.width;
+
+  arrownext[i].addEventListener('click', () => {
+    item.scrollLeft += containerwidth;
+  })
+
+  arrowprev[i].addEventListener('click', () => {
+    item.scrollLeft -= containerwidth;
+  })
+})
