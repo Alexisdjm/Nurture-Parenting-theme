@@ -2,18 +2,20 @@
 
 const productcontainer = [...document.querySelectorAll('.carousel-element')];
 
-const arrownext = [...document.querySelectorAll('.arrownext')];
-const arrowprev = [...document.querySelectorAll('.arrowprev')];
+const arrownext = [...document.querySelector('.arrownext')];
+const arrowprev = [...document.querySelector('.arrowprev')];
 
-productcontainer.forEach((item, i) => {
+productcontainer.forEach((item) => {
   let containerdimensions = item.getBoundingClientRect();
   let containerwidth = containerdimensions.width;
-    console.log(arrownext[i])
-  arrownext[i].addEventListener('click', () => {
+
+  arrownext.addEventListener('click', () => {
     console.log("funciona")
+    item.scrollLeft += containerwidth;
   });
 
-  arrowprev[i].addEventListener('click', () => {
+  arrowprev.addEventListener('click', () => {
+    console.log("funciona")
     item.scrollLeft -= containerwidth;
   });
 }) 
