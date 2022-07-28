@@ -1,11 +1,11 @@
-<div style="width: 100%; height: 900px;">
-    <div style="display: flex;">
-        <div>
+<div style="height: fit-content; display: flex; justify-content: center;">
+    <div style="display: flex; max-width: 1100px;">
+        <div style="width: 50%;">
             <h4>{{ section.settings.title }}</h4>
             {{ section.settings.article }}
         </div>
-        <div style="margin: 10px;">
-            <img src="{{ section.settings.big_image | img_url: 'master' }}">
+        <div style="width: 50%; margin: 10px;">
+            <img style="width: 93%;" src="{{ section.settings.big_image | img_url: 'master' }}">
         </div>
     </div>
 </div>
