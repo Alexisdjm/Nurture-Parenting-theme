@@ -5,10 +5,14 @@
                 <div style="height: fit-content; width: 100%; ">
                     <h4>{{ section.settings.title }}</h4>
                     {{ section.settings.article }}
-                </div>
-                <a href="{{ section.settings.button_link }}" class="main-button">
-                    {{ section.settings.button_label }}
-                  </a> 
+                
+                    {% if section.settings.button_label_text != blank and section.settings.button_linkD != blank %}
+                        <div style="margin-top: 1em;">
+                            <a href="{{ section.settings.button_linkD }}" class="main-button">
+                            {{ section.settings.button_label_text }}
+                            </a> 
+                        </div>
+                    {% endif %}    
                 </div>
             </div>
         </div>
@@ -51,7 +55,7 @@
             },
             {
                 "type": "url",
-                "id": "button_link",
+                "id": "button_linkD",
                 "label": "Button link"
             }
         ],
