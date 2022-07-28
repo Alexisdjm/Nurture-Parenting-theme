@@ -37,7 +37,7 @@ p, a {
     font-size: 18px;
 }
 
-h1, h4{
+h1,h3,h4{
     color:#361E45 !important;
     font-family: 'Raleway', sans-serif !important;
     text-transform: capitalize !important;
