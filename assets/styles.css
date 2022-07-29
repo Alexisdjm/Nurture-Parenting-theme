@@ -222,3 +222,51 @@ font-size: 50px;
 .carousel-container::-webkit-scrollbar{
     visibility: hidden;
 }
+
+/* ***************************************big image with text and background **************************************/
+
+.background-container {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: -33%;
+    display: flex;
+    justify-content: center;
+}
+
+.background-dimensions {
+    width: 100%;
+    max-width: 1350px;
+}
+
+.background-image-text-container {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.image-text-flex {
+    display: flex;
+    max-width: 1100px;
+    z-index: 9
+}
+
+.textbox {
+    height: 100%;
+    padding: 0 15% 0 15%;
+    display: flex;
+    align-items: center;
+}
+
+.p-h3-container {
+    height: fit-content;
+    width: 100%;
+}
+
+.section.image-settings {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
