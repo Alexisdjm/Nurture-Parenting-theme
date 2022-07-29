@@ -175,8 +175,11 @@ font-size: 50px;
     justify-content: center;
 }
 
-.margin-slider-logo-section {
+.static-logo-galery-container {
     margin: 60px 0;
+    position: relative;
+    z-index: 999;
+    background-color: white;
 }
 
 /* ############################################################################################################ */
@@ -189,14 +192,9 @@ font-size: 50px;
 
 .static-logo-dimensions {
     padding: 0.5em; 
-    margin: 30px; 
+    margin: 30 50px; 
     width: 180px; 
     height: 270px;
-}
-
-.space-around {
-    display: flex;
-    justify-content: space-around;
 }
 
 .good-references-text {
