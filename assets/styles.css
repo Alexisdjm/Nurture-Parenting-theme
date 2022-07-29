@@ -187,10 +187,11 @@ font-size: 50px;
 }
 
 .small-title-section {
-    text-transform: uppercase;
+    text-transform: uppercase !important;
     font-size: 16px;
     letter-spacing: 2px;
-    color: #361E45;
+    color: #361E45 !important;
+    font-weight: lighter;
 }
 
 /* ############################################################################################################ */
