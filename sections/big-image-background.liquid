@@ -1,6 +1,9 @@
 <div class="background-image-text-container">
-    <div class="background-container">
-        <img class="background-dimensions" src="{{ section.settings.background | img_url: 'master' }}" >
+    <div class="background-container" style="display: flex;">
+        <img src="{{ section.settings.background | img_url: 'master' }}" >
+    </div>
+    <div>
+        <img src="{{ section.settings.background2 | img_url: 'master' }}" >
     </div>
     <div class="image-text-flex">
         <div style="width: 50%;">
@@ -43,6 +46,11 @@
               "id": "background",
               "label": "background"
             },
+            {
+                "type": "image_picker",
+                "id": "background2",
+                "label": "background 2"
+              },
             {
                 "type": "text",
                 "id": "title",
