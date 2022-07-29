@@ -57,6 +57,10 @@ li {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.text-center {
+    text-align: center;
+}
+
 .contact-links {
     font-size: 14px; 
     font-family: 'Source Sans Pro', sans-serif; 
