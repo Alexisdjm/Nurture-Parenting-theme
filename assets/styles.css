@@ -182,6 +182,10 @@ font-size: 50px;
     background-color: white;
 }
 
+.margin-slider-logo-section {
+    margin: 80px 0px;
+}
+
 /* ############################################################################################################ */
 
 .static-logo-container {
