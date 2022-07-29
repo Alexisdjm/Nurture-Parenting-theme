@@ -222,7 +222,3 @@ font-size: 50px;
 .carousel-container::-webkit-scrollbar{
     visibility: hidden;
 }
-
-.p {
-    font-size: 16px !important;
-}
