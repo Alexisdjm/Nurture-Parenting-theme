@@ -237,6 +237,7 @@ font-size: 50px;
 .background-dimensions {
     width: 100%;
     max-width: 1350px;
+    position: absolute;
 }
 
 .background-image-text-container {
@@ -265,7 +266,7 @@ font-size: 50px;
     width: 100%;
 }
 
-.section.image-settings {
+.section-image-settings {
     width: 50%;
     display: flex;
     justify-content: center;
