@@ -66,8 +66,8 @@
   {% if section.settings.subtitle != blank or section.settings.title != blank or section.settings.text != blank %}
     <div class="background-media-text__inner">
       <div style="margin-top: 7em;">
-        <div style="margin: 0 4em;">
-          <div>
+        <div class="flex-center" style="margin: 0 4em;">
+          <div style="width: 100%; max-width: 1350px">
             {% if section.settings.title != blank %}
               <h1>{{ section.settings.title | escape }}</h1>
             {% endif %}
