@@ -1,4 +1,4 @@
-
+/* ############################################ Header and first section ########################################*/
 .pinkbar {
     height: 50px; 
     width:100%; 
@@ -106,6 +106,15 @@ li {
 
 .cien {
     width: 100%;
+}
+
+.max-width-to-responsivenes {
+    max-width: 1350px;
+}
+
+.center-vertically {
+    display: grid;
+    align-items: center;
 }
 
 /* ################################################## Logo Slider ############################################### */
