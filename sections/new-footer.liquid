@@ -4,26 +4,32 @@
 {{ 'collection-carousel.js' | asset_url | script_tag }}
 
 {% schema %}
-  {
-    "name": "new footer",
-    "blocks": [
+{
+    "name": "New Header",
+    "class": "new-header-np",
+    "settings": [
       {
         "type": "link_list",
-        "name": "navigator",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Title",
-            "default": "Quick Links"
-          },
-          {
-            "type": "richtext",
-            "id": "info",
-            "label": "text",
-            "default": "<p>Information about your store, like location, phone number and more</p>",
-          }
-        ]
+        "id": "main_menu_link_list",
+        "label": "Navigation",
+        "default": "main-menu"
+      },
+      {
+        "type": "text",
+        "id": "email_address",
+        "label": "Email address",
+        "default": "example@example.com"
+      },
+      {
+        "type": "text",
+        "id": "phone_number",
+        "label": "Phone Number",
+        "default": "+1 470-123-4567"
+      },
+      {
+      "type": "image_picker",
+        "id": "image",
+        "label": "Logo"
       }
     ]
   }
