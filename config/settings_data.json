@@ -506,7 +506,7 @@
       "footer-promotions": {
         "type": "footer-promotions",
         "settings": {
-          "hide_homepage": false,
+          "hide_homepage": true,
           "image_size": "wide"
         }
       },
