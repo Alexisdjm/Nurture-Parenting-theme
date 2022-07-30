@@ -6,21 +6,32 @@
 {% schema %}
     {
         "name": "new footer",
+       "settings": [
+           {
+                "type": "range",
+                "id": "col_num",
+                "default": 3,
+                "min": 2,
+                "max": 4,
+                "label": "Number of columns"
+            }
+       ],
         "blocks": [
             {
-                "type": "link_list",
+                "type": "text",
                 "name": "navigator",
                 "settings": [
                     {
                         "type": "text",
                         "id": "title",
                         "label": "Title",
-                        "default": "Quick Links"
+                        "default": "Description"
                     },
                     {
-                        "type": "link_list",
-                        "id": "menu",
-                        "label": "menu"
+                        "type": "richtext",
+                        "id": "text",
+                        "label": "text",
+                        "default": "<p>some information</p>"
                     }
                 ]
             }
