@@ -8,19 +8,22 @@
   {% endif %}
 {% endif %}
 <div class="pinkbar">
+  <div style="width: 100%; max-width: 1200px; display: grid; align-items: center;">
     <div class="pinkbarcontent">
-        <div class="grid">
-          <div class="orderinfo">
-            <span class="mdi mdi-phone iconset"></span><a href="#" class="contact-links">{{ section.settings.phone_number }}</a>
-          </div>
-          <div class="orderinfo">
-            <span class="mdi mdi-email-outline iconset"></span><a href="#" class="contact-links">{{ section.settings.email_address }}</a>
-          </div>
+      <div class="grid">
+        <div class="orderinfo">
+          <span class="mdi mdi-phone iconset"></span><a href="#" class="contact-links">{{ section.settings.phone_number }}</a>
         </div>
-    </div>
+        <div class="orderinfo">
+          <span class="mdi mdi-email-outline iconset"></span><a href="#" class="contact-links">{{ section.settings.email_address }}</a>
+        </div>
+      </div>
+  </div>
+</div>
+    
 </div>
 <nav class="navbar navbar-expand-lg navbar-light navbar-position" >
-    <div class="container-fluid max-width" style="margin: 0 3em;">
+    <div class="container-fluid" style="margin: 0 3em;">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
