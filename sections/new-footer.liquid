@@ -1,0 +1,28 @@
+{{ 'slider.js' | asset_url | script_tag }}
+{{ 'collection-carousel.js' | asset_url | script_tag }}
+
+{% schema %}
+  {
+    "name": "new footer",
+    "blocks": [
+      {
+        "type": "link_list",
+        "name": "navigator",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Quick Links"
+          },
+          {
+            "type": "richtext",
+            "id": "info",
+            "label": "text",
+            "default": "<p>Information about your store, like location, phone number and more</p>",
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
