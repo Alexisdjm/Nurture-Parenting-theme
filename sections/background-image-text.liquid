@@ -67,27 +67,29 @@
     <div class="background-media-text__inner">
       <div style="margin-top: 7em;">
         <div style="margin: 0 4em;">
-          {% if section.settings.title != blank %}
-            <h1>{{ section.settings.title | escape }}</h1>
-          {% endif %}
-          {% if section.settings.subtitle != blank %}
-            <h1>{{ section.settings.subtitle | escape }}</h1>
-          {% endif %}
-          <br>
-          {% if section.settings.text != blank %}
-            <div>{{ section.settings.text }}</div>
-          {% endif %}
-          <br>
-          {% if section.settings.text2 != blank %}
-            <div>{{ section.settings.text2 }}</div>
-          {% endif %}
-          {% if section.settings.button_label != blank and section.settings.button_link != blank %}
-            <div style="margin-top: 2em;">
-              <a href="{{ section.settings.button_link }}" class="main-button">
-                {{ section.settings.button_label }}
-              </a> 
-            </div>
-          {% endif %}
+          <div>
+            {% if section.settings.title != blank %}
+              <h1>{{ section.settings.title | escape }}</h1>
+            {% endif %}
+            {% if section.settings.subtitle != blank %}
+              <h1>{{ section.settings.subtitle | escape }}</h1>
+            {% endif %}
+            <br>
+            {% if section.settings.text != blank %}
+              <div>{{ section.settings.text }}</div>
+            {% endif %}
+            <br>
+            {% if section.settings.text2 != blank %}
+              <div>{{ section.settings.text2 }}</div>
+            {% endif %}
+            {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+              <div style="margin-top: 2em;">
+                <a href="{{ section.settings.button_link }}" class="main-button">
+                  {{ section.settings.button_label }}
+                </a> 
+              </div>
+            {% endif %}
+          </div>
         </div>
       </div>
     </div>
