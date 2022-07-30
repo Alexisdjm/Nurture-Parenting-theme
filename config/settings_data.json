@@ -541,6 +541,7 @@
       },
       "165888049299eb1215": {
         "type": "slider-products",
+        "disabled": true,
         "settings": {
           "Programs_available": "programs",
           "title": ""
