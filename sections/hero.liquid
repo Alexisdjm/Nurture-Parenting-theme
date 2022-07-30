@@ -23,48 +23,46 @@
     
 </div>
 <nav class="navbar navbar-expand-lg navbar-light navbar-position" >
-  <div>
-    <div class="container-fluid" style="margin: 0 3em;">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div style="width: 90px; height:90px;">
-        <img src="{{ section.settings.image | img_url: 'master' }}" alt="">
-      </div>
-      <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;">
-        <ul class="navbar-nav">
-          {% for link in linklists.main-menu.links %}
-            {% assign child_list_handle = link.title | handleize %}
-            {% if linklists[child_list_handle].links != blank %}
+  <div class="container-fluid" style="margin: 0 3em;">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div style="width: 90px; height:90px;">
+      <img src="{{ section.settings.image | img_url: 'master' }}" alt="">
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;">
+      <ul class="navbar-nav">
+        {% for link in linklists.main-menu.links %}
+          {% assign child_list_handle = link.title | handleize %}
+          {% if linklists[child_list_handle].links != blank %}
+            <li class="nav-item">
+              <a class="navbar-config" href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+            [{% for childlink in linklists[child_list_handle].links %}
               <li class="nav-item">
-                <a class="navbar-config" href="{{ link.url }}">{{ link.title }}</a>
+                <a class="navbar-config" href="{{ childlink.url }}">{{ childlink.title | escape }}</a>
               </li>
-              [{% for childlink in linklists[child_list_handle].links %}
-                <li class="nav-item">
-                  <a class="navbar-config" href="{{ childlink.url }}">{{ childlink.title | escape }}</a>
-                </li>
-              {% endfor %}]
-            {% else %}
-              <li class="nav-item">
-                <a class="navbar-config" href="{{ link.url }}">{{ link.title }}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-      <div>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="fa-solid fa-magnifying-glass"></span></a>
-          </li>
-          <li class="nav-item">
-            <a style="padding: 0.3em 1em;" class="nav-link" href="#"><span class="mdi mdi-cart-outline icon-size"></span></a>
-          </li>
-          <li class="nav-item">
-            <a style="padding: 0.3em;" class="nav-link" href="#"><span class="mdi mdi-account-outline icon-size"></span><span style="padding: 0 0.5em;">Login</span></a>
-          </li>
-        </ul>
-      </div>
+            {% endfor %}]
+          {% else %}
+            <li class="nav-item">
+              <a class="navbar-config" href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span class="fa-solid fa-magnifying-glass"></span></a>
+        </li>
+        <li class="nav-item">
+          <a style="padding: 0.3em 1em;" class="nav-link" href="#"><span class="mdi mdi-cart-outline icon-size"></span></a>
+        </li>
+        <li class="nav-item">
+          <a style="padding: 0.3em;" class="nav-link" href="#"><span class="mdi mdi-account-outline icon-size"></span><span style="padding: 0 0.5em;">Login</span></a>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
