@@ -1,12 +1,12 @@
 <div style="height: 300px; background-color: #F8F8F8; position: relative; z-index: 999;" class="w-100">
-    <div class="row py-5 px-5">
+    <div class="py-5 px-5 flex-center">
         {% for block in section.blocks %}
             <div class="w-100">
                 <div class="py-5 px-4 w-100">
-                    <h4>{{ block.settings.title }}</h4>
+                    <p class="title">{{ block.settings.title }}</p>
                     <br>
-                    <p>{{ block.settings.text }}</p>
-                    <br>
+                    {{ block.settings.text }}
+
                 </div>
             </div>
         {% endfor %}
