@@ -569,26 +569,10 @@
               "title": "Description",
               "text": "<p>some information<\/p>"
             }
-          },
-          "6662f63e-309c-4831-9858-0e951b20cd9c": {
-            "type": "text",
-            "settings": {
-              "title": "Description",
-              "text": "<p>some information<\/p>"
-            }
-          },
-          "ad8f6aab-63bf-4c23-a52c-4d9774bfba20": {
-            "type": "text",
-            "settings": {
-              "title": "Description",
-              "text": "<p>some information<\/p>"
-            }
           }
         },
         "block_order": [
-          "1774a97e-df7e-43b1-bd48-f6d43c609e19",
-          "6662f63e-309c-4831-9858-0e951b20cd9c",
-          "ad8f6aab-63bf-4c23-a52c-4d9774bfba20"
+          "1774a97e-df7e-43b1-bd48-f6d43c609e19"
         ],
         "settings": {
           "col_num": 3
