@@ -358,7 +358,7 @@ font-size: 50px;
     grid-template-columns: repeat(4, 1fr);
 }
 .block-width-1 {
-    width: 20vw;
+    width: 250px;
 }
 
 .block-width-2 {
