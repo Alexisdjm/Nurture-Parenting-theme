@@ -584,8 +584,8 @@
           "40917029-189f-4c62-a144-d9f6d76acb54": {
             "type": "text",
             "settings": {
-              "title": "Description",
-              "text": "<p class=\"catorce\">some information<\/p>",
+              "title": "Shop",
+              "text": "<p><a class=\"catorce\" href=\"#\">Programs<\/a><a><\/a><\/p>\n<p><a class=\"catorce\" href=\"#\">Ebooks<\/a><a><\/a><\/p>\n<p><a class=\"catorce\" href=\"#\">Other Products<\/a><a><\/a><\/p><p><a class=\"catorce\" href=\"#\">Home Services<\/a><a><\/a><\/p>",
               "text1": "",
               "width": 2
             }
