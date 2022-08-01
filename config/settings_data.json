@@ -585,7 +585,7 @@
             "type": "text",
             "settings": {
               "title": "Shop",
-              "text": "<p><a class=\"catorce\" href=\"#\">Programs<\/a><a><\/a><\/p>\n<p><a class=\"catorce\" href=\"#\">Ebooks<\/a><a><\/a><\/p>\n<p><a class=\"catorce\" href=\"#\">Other Products<\/a><a><\/a><\/p><p><a class=\"catorce\" href=\"#\">Home Services<\/a><a><\/a><\/p>",
+              "text": "<p><a class=\"catorce text-underline-none\" href=\"#\">Programs<\/a><a><\/a><\/p>\n<p><a class=\"catorce text-underline-none\" href=\"#\">Ebooks<\/a><a><\/a><\/p>\n<p><a class=\"catorce text-underline-none\" href=\"#\">Other Products<\/a><a><\/a><\/p><p><a class=\"catorce text-underline-none\" href=\"#\">Home Services<\/a><a><\/a><\/p>",
               "text1": "",
               "width": 2
             }
