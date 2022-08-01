@@ -176,8 +176,8 @@
         "settings": {
           "title": "The Best Days Begin",
           "subtitle": "With a Good Night’s Sleep",
-          "text": "<p>Say goodbye to sleepless nights and say hello to a good night's sleep.<\/p>",
-          "text2": "<p>Our nurture parenting programs have the ability to change your life,<\/p><p>holding your hand and gently guiding you through our kind,<\/p><p>unique and holistic approach<\/p><p>to baby sleep<\/p><p>toddler & child sleep<\/p><p>and child behaviour.<\/p>",
+          "text": "<p>Our proven sleep and behaviour programs can change your <\/p><p>life, give you the support you need to bring the balance back <\/p><p>into your parenting<\/p>",
+          "text2": "",
           "button_label": "View programs",
           "button_link": "shopify:\/\/collections\/all",
           "image": "shopify:\/\/shop_images\/sleeping-baby-fluffy-blanket-copyspace-white-background_1.jpg",
@@ -570,10 +570,19 @@
               "text": "<p><strong>Nurture Parenting’s Karen Faulker<\/strong>is working towards helping parents understand their child’s sleep and behavior issues. Her thoughtfully curated<strong>nurture parenting programs<\/strong>help in laying a foundation for good sleeping and behavioural habits for your tiny tot.<\/p>",
               "text1": "<p>Cerris Pty Ltd trading as Nurture Parenting – ABN 42 623 216 384 – Sydney, Australia<\/p>"
             }
+          },
+          "377d8f1f-ef50-4b1b-8cea-af44595cb308": {
+            "type": "text",
+            "settings": {
+              "title": "Description",
+              "text": "<p>some information<\/p>",
+              "text1": "<p>some information 2<\/p>"
+            }
           }
         },
         "block_order": [
-          "1774a97e-df7e-43b1-bd48-f6d43c609e19"
+          "1774a97e-df7e-43b1-bd48-f6d43c609e19",
+          "377d8f1f-ef50-4b1b-8cea-af44595cb308"
         ],
         "settings": {
           "col_num": 4,
