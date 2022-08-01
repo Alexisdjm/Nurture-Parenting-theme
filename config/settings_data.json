@@ -575,19 +575,19 @@
           "3c5d6b9c-0cc8-4a31-b120-70608b6438a1": {
             "type": "text",
             "settings": {
-              "title": "Description",
-              "text": "<p class=\"catorce\">some information<\/p>",
-              "text1": "some information 2",
-              "width": 3
+              "title": "About us",
+              "text": "<p>\n<a class=\"catorce\" href=\"#\">+(58) 0412 761 5686<\/a><a><\/a>\n<br>\n<a class=\"catorce\" href=\"#\">Alexis.jm29@gmail.com<\/a><a><\/a>\n<\/p>",
+              "text1": "",
+              "width": 1
             }
           },
           "40917029-189f-4c62-a144-d9f6d76acb54": {
             "type": "text",
             "settings": {
-              "title": "Description",
-              "text": "<p class=\"catorce\">some information<\/p>",
-              "text1": "some information 2",
-              "width": 3
+              "title": "Shop",
+              "text": "<p><a class=\"catorce text-underline-none\" href=\"#\">Programs<\/a><a><\/a><\/p>\n<p><a class=\"catorce text-underline-none\" href=\"#\">Ebooks<\/a><a><\/a><\/p>\n<p><a class=\"catorce text-underline-none\" href=\"#\">Other Products<\/a><a><\/a><\/p><p><a class=\"catorce text-underline-none\" href=\"#\">Home Services<\/a><a><\/a><\/p>",
+              "text1": "",
+              "width": 2
             }
           }
         },
