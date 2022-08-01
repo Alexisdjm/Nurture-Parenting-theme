@@ -568,7 +568,8 @@
             "settings": {
               "title": "About Nurture Parenting",
               "text": "<p class=\"catorce\"><strong>Nurture Parenting’s Karen Faulker<\/strong>is working towards helping parents understand their child’s sleep and behavior issues. Her thoughtfully curated<strong>nurture parenting programs<\/strong>help in laying a foundation for good sleeping and behavioural habits for your tiny tot.<\/p>",
-              "text1": "<p class=\"catorce\">Cerris Pty Ltd trading as Nurture Parenting – ABN 42 623 216 384 – Sydney, Australia<\/p>"
+              "text1": "<p class=\"catorce\">Cerris Pty Ltd trading as Nurture Parenting – ABN 42 623 216 384 – Sydney, Australia<\/p>",
+              "width": 5
             }
           },
           "377d8f1f-ef50-4b1b-8cea-af44595cb308": {
@@ -576,7 +577,8 @@
             "settings": {
               "title": "Description",
               "text": "<p>some information<\/p>",
-              "text1": "<p>some information 2<\/p>"
+              "text1": "<p>some information 2<\/p>",
+              "width": 1
             }
           },
           "70c46db1-9723-41e4-b1f3-9bb4f8015b9f": {
@@ -584,7 +586,8 @@
             "settings": {
               "title": "Description",
               "text": "<p class=\"catorce\">some information<\/p>",
-              "text1": "some information 2"
+              "text1": "some information 2",
+              "width": 1
             }
           },
           "6de8f01b-4911-4fb9-935a-1df01068b84e": {
@@ -592,7 +595,8 @@
             "settings": {
               "title": "Description",
               "text": "<p class=\"catorce\">some information<\/p>",
-              "text1": "some information 2"
+              "text1": "some information 2",
+              "width": 1
             }
           }
         },
