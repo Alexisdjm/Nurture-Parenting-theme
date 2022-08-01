@@ -7,6 +7,10 @@
     justify-content: center;
 }
 
+html {
+    padding: none;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -331,4 +335,8 @@ font-size: 50px;
 
 .dieciseis {
     font-size: 16px !important;
+}
+
+.text-underline-none {
+    text-decoration: none;
 }

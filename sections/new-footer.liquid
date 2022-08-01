@@ -1,12 +1,12 @@
 <div style="background-color: #F8F8F8; position: relative; z-index: 999;" class="w-100">
-    <div class="py-5 px-5 flex-center">
+    <div class="py-5 px-5 row row-cols-{{ section.settings.col_num }}">
         {% for block in section.blocks %}
             <div class="w-100">
                 <div class="py-5 px-4 w-100">
-                    <p class="title">{{ block.settings.title }}</p>
+                    <p class="title dieciseis">{{ block.settings.title }}</p>
                     <br>
                     <div style="padding: 0 12% 0 0" class="py-1">
-                        <div style="font-size: 14px !important;">{{ block.settings.text }}</div>
+                        {{ block.settings.text }}
                         <br>
                         {{ block.settings.text1 }}
                     </div>
@@ -14,13 +14,13 @@
             </div>
         {% endfor %}
     </div>
-    <div style="height: 10vw; margin: 20px 0px 0px; padding: 0 30px;" class="w-100">
+    <div style="height: 9vw; margin: 20px 0px 0px; padding: 0 30px;" class="w-100">
         <div class="w-100 flex-center">
             <ul>
-                <li class="list-item-footer footer-links-border"><a class="catorce" href="#">Privacy Policity</a></li>
-                <li class="list-item-footer footer-links-border"><a class="catorce" href="#">Site Map</a></li>
-                <li class="list-item-footer footer-links-border"><a class="catorce" href="#">Terms & Conditions</a></li>
-                <li class="list-item-footer"><a class="catorce" href="#">Do not sell my personal information</a></li>
+                <li class="list-item-footer footer-links-border"><a class="catorce text-underline-none" href="#">Privacy Policity</a></li>
+                <li class="list-item-footer footer-links-border"><a class="catorce text-underline-none" href="#">Site Map</a></li>
+                <li class="list-item-footer footer-links-border"><a class="catorce text-underline-none" href="#">Terms & Conditions</a></li>
+                <li class="list-item-footer"><a class="catorce text-underline-none" href="#">Do not sell my personal information</a></li>
             </ul>
         </div>
         <div class="flex-center w-100 px-4 mt-3">
