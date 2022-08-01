@@ -340,3 +340,20 @@ font-size: 50px;
 .text-underline-none {
     text-decoration: none;
 }
+
+.grid-center {
+    display: grid;
+    align-items: center;
+}
+
+.colums-2 {
+    grid-template-columns: (2, 1fr);
+}
+
+.colums-3 {
+    grid-template-columns: (3, 1fr);
+}
+
+.colums-4 {
+    grid-template-columns: (4, 1fr);
+}
