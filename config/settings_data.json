@@ -554,8 +554,8 @@
           "background": "shopify:\/\/shop_images\/Frame_350.png",
           "background2": "shopify:\/\/shop_images\/Frame_351.png",
           "title": "Meet Karen Faulkner",
-          "article": "<p>I’m on a mission to help your baby and you achieve better sleep through my <strong>evidence-based<\/strong> <strong>baby sleep program. <\/strong>With over 20 years of experience as a baby sleep consultant in Australia, and 33 years as a Registered Midwife I’ve been able to help 50K + families enjoy the joy of parenthood to their fullest.<\/p>",
-          "article_frase": "<p>Join our family today and learn to sleep blissfully!<\/p>",
+          "article": "<p class=\"dieciseis\">I’m on a mission to help your baby and you achieve better sleep through my <strong>evidence-based<\/strong> <strong>baby sleep program. <\/strong>With over 20 years of experience as a baby sleep consultant in Australia, and 33 years as a Registered Midwife I’ve been able to help 50K + families enjoy the joy of parenthood to their fullest.<\/p>",
+          "article_frase": "<br>\n<p class=\"dieciseis\">Join our family today and learn to sleep blissfully!<\/p>",
           "button_label_text": "View Programs",
           "button_linkD": "shopify:\/\/collections\/programs"
         }
@@ -567,7 +567,7 @@
             "type": "text",
             "settings": {
               "title": "About Nurture Parenting",
-              "text": "<p><strong>Nurture Parenting’s Karen Faulker<\/strong>is working towards helping parents understand their child’s sleep and behavior issues. Her thoughtfully curated<strong>nurture parenting programs<\/strong>help in laying a foundation for good sleeping and behavioural habits for your tiny tot.<\/p>",
+              "text": "<p class=\"catorce\"><strong>Nurture Parenting’s Karen Faulker<\/strong>is working towards helping parents understand their child’s sleep and behavior issues. Her thoughtfully curated<strong>nurture parenting programs<\/strong>help in laying a foundation for good sleeping and behavioural habits for your tiny tot.<\/p>",
               "text1": "<p class=\"catorce\">Cerris Pty Ltd trading as Nurture Parenting – ABN 42 623 216 384 – Sydney, Australia<\/p>"
             }
           },
