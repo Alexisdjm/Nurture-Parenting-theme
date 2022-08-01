@@ -577,8 +577,8 @@
             "settings": {
               "title": "Description",
               "text": "<p class=\"catorce\">some information<\/p>",
-              "text1": "some information 2",
-              "width": 2
+              "text1": "",
+              "width": 1
             }
           },
           "40917029-189f-4c62-a144-d9f6d76acb54": {
