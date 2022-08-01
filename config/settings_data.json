@@ -567,21 +567,24 @@
             "type": "text",
             "settings": {
               "title": "Description",
-              "text": "<p>some information<\/p>"
+              "text": "<p>some information<\/p>",
+              "text1": "<p>some information 2<\/p>"
             }
           },
           "9937fa3f-592d-4486-b05f-0b7a4cfcc1dd": {
             "type": "text",
             "settings": {
               "title": "Description",
-              "text": "<p>some information<\/p>"
+              "text": "<p>some information<\/p>",
+              "text1": "<p>some information 2<\/p>"
             }
           },
           "69022b01-d347-492d-a412-c188f83a601c": {
             "type": "text",
             "settings": {
               "title": "Description",
-              "text": "<p>some information<\/p>"
+              "text": "<p>some information<\/p>",
+              "text1": "<p>some information 2<\/p>"
             }
           }
         },
@@ -591,7 +594,8 @@
           "69022b01-d347-492d-a412-c188f83a601c"
         ],
         "settings": {
-          "col_num": 3
+          "col_num": 3,
+          "payments": "shopify:\/\/shop_images\/visa.webp"
         }
       }
     },
