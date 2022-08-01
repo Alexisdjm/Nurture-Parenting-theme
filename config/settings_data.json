@@ -571,10 +571,30 @@
               "text1": "<p class=\"catorce\">Cerris Pty Ltd trading as Nurture Parenting – ABN 42 623 216 384 – Sydney, Australia<\/p>",
               "width": 6
             }
+          },
+          "3c5d6b9c-0cc8-4a31-b120-70608b6438a1": {
+            "type": "text",
+            "settings": {
+              "title": "Description",
+              "text": "<p class=\"catorce\">some information<\/p>",
+              "text1": "some information 2",
+              "width": 3
+            }
+          },
+          "40917029-189f-4c62-a144-d9f6d76acb54": {
+            "type": "text",
+            "settings": {
+              "title": "Description",
+              "text": "<p class=\"catorce\">some information<\/p>",
+              "text1": "some information 2",
+              "width": 3
+            }
           }
         },
         "block_order": [
-          "1774a97e-df7e-43b1-bd48-f6d43c609e19"
+          "1774a97e-df7e-43b1-bd48-f6d43c609e19",
+          "3c5d6b9c-0cc8-4a31-b120-70608b6438a1",
+          "40917029-189f-4c62-a144-d9f6d76acb54"
         ],
         "settings": {
           "col_num": 3,
