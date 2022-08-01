@@ -1,7 +1,7 @@
 <div style="background-color: #F8F8F8; position: relative; z-index: 999;" class="w-100">
     <div class="py-5 px-5 grid-center colums-{{ section.settings.col_num }}">
         {% for block in section.blocks %}
-            <div class="w-100">
+            <div class="block-width-{{ block.settings.width }}">
                 <div style="padding: 10px 0 0;" class="px-4 w-100">
                     <p class="title dieciseis">{{ block.settings.title }}</p>
                     <br>
@@ -72,6 +72,14 @@
                         "id": "text1",
                         "label": "text1",
                         "default": "some information 2"
+                    },
+                    {
+                       "type": "range",
+                       "id": "width",
+                       "max": 5,
+                       "min": 1,
+                      "default": 1,
+                      "label": "width"
                     }
                 ]
             }

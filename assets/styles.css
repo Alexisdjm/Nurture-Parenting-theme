@@ -357,3 +357,22 @@ font-size: 50px;
 .colums-4 {
     grid-template-columns: repeat(4, 1fr);
 }
+.block-width-1 {
+    width: 30vw;
+}
+
+.block-width-2 {
+    width: 33vw;
+}
+
+.block-width-3 {
+    width: 36vw;
+}
+
+.block-width-4 {
+    width: 40vw;
+}
+
+.block-width-5 {
+    width: 44vw;
+}
