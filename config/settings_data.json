@@ -586,8 +586,8 @@
             "settings": {
               "title": "Description",
               "text": "<p class=\"catorce\">some information<\/p>",
-              "text1": "some information 2",
-              "width": 3
+              "text1": "",
+              "width": 2
             }
           }
         },
