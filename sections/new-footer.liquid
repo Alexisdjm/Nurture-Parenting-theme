@@ -2,7 +2,7 @@
     <div class="w-100">
         <div class="flex-center">
             <div class="w-100 max-width-1350">
-                <div class="py-5 px-5 max-width-1350 colums-{{ section.settings.col_num }}">
+                <div style="display: grid;" class="py-5 px-5 max-width-1350 colums-{{ section.settings.col_num }}">
                     {% for block in section.blocks %}
                         <div class="block-width-{{ block.settings.width }}">
                             <div style="padding: 10px 0 0;" class="px-4 w-100">
