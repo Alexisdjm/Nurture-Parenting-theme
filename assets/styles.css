@@ -358,21 +358,29 @@ font-size: 50px;
     grid-template-columns: repeat(4, 1fr);
 }
 .block-width-1 {
-    width: 30vw;
+    width: 20vw;
 }
 
 .block-width-2 {
-    width: 33vw;
+    width: 25vw;
 }
 
 .block-width-3 {
-    width: 36vw;
+    width: 33vw;
 }
 
 .block-width-4 {
-    width: 40vw;
+    width: 38vw;
 }
 
 .block-width-5 {
     width: 44vw;
+}
+
+.block-width-6 {
+    width: 50vw;
+}
+
+.block-width-7 {
+    width: 55vw;
 }
