@@ -5,7 +5,7 @@
                 <div class="py-5 px-4 w-100">
                     <p class="title">{{ block.settings.title }}</p>
                     <br>
-                    <div class="py-5 px-4">
+                    <div class="py-5">
                         {{ block.settings.text }}
                         <br>
                         {{ block.settings.text1 }}
@@ -14,15 +14,17 @@
             </div>
         {% endfor %}
     </div>
-    <div style="height: 15vw; margin: 60px 0px; padding: 0 30px;" class="w-100">
+    <div style="height: 15vw; margin: 20px 0px 0px; padding: 0 30px;" class="w-100">
         <div class="w-100 flex-center">
             <ul>
-                <li class="list-item-footer"><a href="#">Privacy Policity</a></li>
-                <li class="list-item-footer"><a href="#">Site Map</a></li>
-                <li class="list-item-footer"><a href="#">Terms & Conditions</a></li>
+                <li class="list-item-footer footer-links-border"><a href="#">Privacy Policity</a></li>
+                <li class="list-item-footer footer-links-border"><a href="#">Site Map</a></li>
+                <li class="list-item-footer footer-links-border"><a href="#">Terms & Conditions</a></li>
                 <li class="list-item-footer"><a href="#">Do not sell my personal information</a></li>
-                
             </ul>
+            <div class="flex-center w-100 px-4 mt-3">
+                <img src="{{ section.settings.payments | img_url: 'master' }}" alt="payments">
+            </div>
         </div>
     </div>
 </div>
@@ -41,6 +43,11 @@
                 "min": 2,
                 "max": 4,
                 "label": "Number of columns"
+            },
+            {
+               "type": "image_picker",
+               "id": "payments",
+               "label": "payments image"
             }
        ],
         "blocks": [

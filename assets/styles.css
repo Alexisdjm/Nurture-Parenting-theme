@@ -15,10 +15,11 @@ ul {
 
 li {
     display: inline-block;
+    font-size: 14px !important;
 }
 
 .list-item-footer {
-    border-right: #361E45;
+    padding: 0 1em;
     text-align: -webkit-match-parent;
 }
 
@@ -316,4 +317,10 @@ font-size: 50px;
 .title {
     font-weight: bold;
     text-align: left;
+}
+
+.footer-links-border {
+    border-right: solid;
+    border-color: #361E45;
+    border-width: thin;
 }
