@@ -362,29 +362,33 @@ font-size: 50px;
 }
 
 .block-width-2 {
-    width: 25vw;
+    width: 300px;
 }
 
 .block-width-3 {
-    width: 33vw;
+    width: 350px;
 }
 
 .block-width-4 {
-    width: 38vw;
+    width: 400px;
 }
 
 .block-width-5 {
-    width: 44vw;
+    width: 500px;
 }
 
 .block-width-6 {
-    width: 50vw;
+    width: 600px;
 }
 
 .block-width-7 {
-    width: 55vw;
+    width: 700px;
 }
 
 html {
     padding: 0;
+}
+
+.max-width-1350 {
+    max-width: 1350px;
 }
