@@ -15,10 +15,15 @@
                     {% endif %}
                         
                     {% if section.settings.button_label_text != blank and section.settings.button_linkD != blank %}
-                        <div style="margin-top: 2em;">
+                        <div class="flex-center" style="margin-top: 2em;">
                             <a href="{{ section.settings.button_linkD }}" class="main-button">
                             {{ section.settings.button_label_text }}
                             </a> 
+                            {% if section.settings.button_label_text1 != blank and section.settings.button_linkD1 != blank %}
+                                <a href="{{ section.settings.button_linkD1 }}" class="secondary-button">
+                                    {{ section.settings.button_label_text1 }}
+                                </a> 
+                            {% endif %} 
                         </div>
                     {% endif %}    
                 </div>
@@ -76,6 +81,16 @@
                 "type": "url",
                 "id": "button_linkD",
                 "label": "Button link"
+            },
+            {
+                "type": "text",
+                "id": "button_label_text1",
+                "label": "Button label 2"
+            },
+            {
+                "type": "url",
+                "id": "button_linkD1",
+                "label": "Button link 2"
             }
         ],
        "presets": [
