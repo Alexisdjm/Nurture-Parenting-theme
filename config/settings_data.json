@@ -574,12 +574,12 @@
               "width": 6
             }
           },
-          "3c5d6b9c-0cc8-4a31-b120-70608b6438a1": {
-            "type": "text",
+          "cfb072e9-8ab6-432e-8749-07390c50fbc3": {
+            "type": "textarea",
             "settings": {
-              "title": "About us",
-              "text": "<p>\n<a class=\"catorce\" href=\"#\">+(58) 0412 761 5686<\/a><a><\/a>\n<br>\n<a class=\"catorce\" href=\"#\">Alexis.jm29@gmail.com<\/a><a><\/a>\n<\/p>",
-              "text1": "",
+              "title_icons": "About us",
+              "text_icons": "<p>\n<a class=\"catorce\" href=\"#\">+(58) 0412 761 5686<\/a><a><\/a>\n<br>\n<a class=\"catorce\" href=\"#\">Alexis.jm29@gmail.com<\/a><a><\/a>\n<\/p>",
+              "icons": "<ul>\n<li><i class=\"fa-brands fa-facebook\"><\/i><\/li>\n<li><i class=\"fa-brands fa-twitter\"><\/i><\/li>\n<li><i class=\"fa-brands fa-instagram\"><\/i><\/li>\n<li><i class=\"fa-brands fa-youtube\"><\/i><\/li>\n<li><i class=\"fa-brands fa-pinterest\"><\/i><\/li>\n<\/ul>",
               "width": 1
             }
           },
@@ -595,7 +595,7 @@
         },
         "block_order": [
           "1774a97e-df7e-43b1-bd48-f6d43c609e19",
-          "3c5d6b9c-0cc8-4a31-b120-70608b6438a1",
+          "cfb072e9-8ab6-432e-8749-07390c50fbc3",
           "40917029-189f-4c62-a144-d9f6d76acb54"
         ],
         "settings": {
