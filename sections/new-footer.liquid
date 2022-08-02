@@ -15,6 +15,25 @@
                                 </div>
                             </div>
                         </div>
+                        
+                        {% if block.type == "textarea" %}
+                        <div class="block-width-{{ block.settings.width }}">
+                            <div style="padding: 10px 0 0;" class="px-4 w-100">
+                                <p class="title dieciseis">{{ block.settings.title_icons }}</p>
+                                <br>
+                                <div style="padding: 0 12% 0 0" class="py-1">
+                                    {{ block.settings.text_icons }}
+                                </div>
+                                <br>
+                                <p class="title dieciseis">{{ block.settings.title_icons2 }}</p>
+                                <br>
+                                <div class="w-100">
+                                    {{ block.settings.icons }}
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                            
                     {% endfor %}
                 </div>
                 <div style="height: 10vw; margin: 20px 0px 0px; padding: 0 30px;" class="w-100">
@@ -103,6 +122,12 @@
                         "id": "text_icons",
                         "label": "text",
                         "default": "<p class='catorce'>some information</p>"
+                    },
+                    {
+                        "type": "text",
+                        "id": "title_icons2",
+                        "label": "Title",
+                        "default": "Description"
                     },
                     {
                         
