@@ -146,7 +146,7 @@ li {
 
 .carousel {
     background: #fff;
-    width: 100%;
+    width: 95%;
     height: 150px;
     display: flex;
     justify-content: flex-start;
@@ -274,8 +274,7 @@ font-size: 50px;
 .background-container {
     position: absolute;
     z-index: 1;
-    width: 100%;
-    top: -10%;
+    width: 90%;
     display: flex;
     justify-content: center;
 }
