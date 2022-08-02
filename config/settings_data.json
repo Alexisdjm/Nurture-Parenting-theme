@@ -556,8 +556,10 @@
           "title": "Meet Karen Faulkner",
           "article": "<p class=\"dieciseis\">I’m on a mission to help your baby and you achieve better sleep through my <strong>evidence-based<\/strong> <strong>baby sleep program. <\/strong>With over 20 years of experience as a baby sleep consultant in Australia, and 33 years as a Registered Midwife I’ve been able to help 50K + families enjoy the joy of parenthood to their fullest.<\/p>",
           "article_frase": "<br>\n<p class=\"dieciseis\">Join our family today and learn to sleep blissfully!<\/p>",
-          "button_label_text": "View Programs",
-          "button_linkD": "shopify:\/\/collections\/programs"
+          "button_label_text": "Schedule consultation",
+          "button_linkD": "shopify:\/\/collections\/programs",
+          "button_label_text1": "More About Me",
+          "button_linkD1": "shopify:\/\/collections\/all"
         }
       },
       "new-footer": {
