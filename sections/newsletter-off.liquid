@@ -1,0 +1,42 @@
+<div class="w-100  py-5" style="background-color: #FBEFEE; height: 33vw;">
+    <div style="position: relative; z-index: 1;" class="flex-center w-100">
+        <div class="max-width" style="width: 36%">
+            <p class="pb-15">{{ section.settings.first_frase }}</p>
+            {{ section.settings.big_text }}
+        </div>
+    </div>
+    <div>
+        <img src="{{ section.settings.adorno }}" alt="adorno">
+    </div>
+</div>
+{% schema %}
+    {
+        "name": "newsletter",
+        "class": "newsletter-class",
+        "settings": [
+            {
+               "type": "text",
+               "id": "first_frase",
+               "label": "Frase",
+              "default": "Put your frase"
+            },
+            {
+               "type": "textarea",
+               "id": "big_text",
+               "label": "text",
+              "default": "<p class='pb-15'>put another frase to your newsletter</p>"
+            },
+            {
+               "type": "image_picker",
+               "id": "adorno",
+               "label": "image"
+            }
+        ],
+       "presets": [
+            {
+                "category": "Newsletter",
+                "name":"New newsletter"
+            }
+       ]
+    }
+{% endschema %}
