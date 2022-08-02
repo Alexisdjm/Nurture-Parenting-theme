@@ -110,11 +110,10 @@ li {
     color: white !important;
     text-decoration: none;
     font-family: 'Source Sans Pro';
-    padding: 0.7em 1.2em;
+    padding: 0.7em;
     border-style: solid;
     border-width: 1px;
     border-color:#361E45;
-    -webkit-transition: color 0.1s;
     transition: color 0.1s;
     
 }
@@ -129,18 +128,18 @@ li {
     color:#4FD6C5 !important;
     text-decoration: none;
     font-family: 'Source Sans Pro';
-    padding: 0.7em 1.2em;
+    padding: 0.7em;
     border-style: solid;
     border-width: 1px;
     border-color:#4FD6C5;
-    -webkit-transition: color 0.1s;
     transition: color 0.1s;
 }
 
 .secondary-button:hover {
     background-color: #4FD6C5;
-    color: white;
+    color: white !important;
 }
+
 
 .cien {
     width: 100%;
