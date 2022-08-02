@@ -8,7 +8,7 @@
                         {% if block.type == "text" %}
                             <div class="block-width-{{ block.settings.width }}">
                                 <div style="padding: 10px 0 0;" class="px-4 w-100">
-                                    <p class="title dieciseis pb-20">{{ block.settings.title }}</p>
+                                    <p class="title dieciseis pb-15">{{ block.settings.title }}</p>
                                     
                                     <div style="padding: 0 12% 0 0" class="py-1">
                                         {{ block.settings.text }}
@@ -22,13 +22,13 @@
                         {% if block.type == "textarea" %}
                         <div class="block-width-{{ block.settings.width }}">
                             <div style="padding: 10px 0 0;" class="px-4 w-100">
-                                <p class="title dieciseis pb-20">{{ block.settings.title_icons }}</p>
+                                <p class="title dieciseis pb-15">{{ block.settings.title_icons }}</p>
                                 
                                 <div style="padding: 0 12% 0 0" class="py-1">
                                     {{ block.settings.text_icons }}
                                 </div>
-                                
-                                <p class="title dieciseis pb-20">{{ block.settings.title_icons2 }}</p>
+                                <br>
+                                <p class="title dieciseis pb-15">{{ block.settings.title_icons2 }}</p>
                                 
                                 <div class="w-100">
                                     {{ block.settings.icons }}
