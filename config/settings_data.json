@@ -602,6 +602,14 @@
           "col_num": 3,
           "payments": "shopify:\/\/shop_images\/visa.webp"
         }
+      },
+      "1659409814d1086c90": {
+        "type": "newsletter-off",
+        "settings": {
+          "first_frase": "let’s keep in touch",
+          "big_text": "<p class=\"pb-10\">Sign Up For Our Newsletter &<\/p><p><\/p>\n<p>Get 10% Off Your First Order<\/p>",
+          "adorno": "shopify:\/\/shop_images\/Frame_353.png"
+        }
       }
     },
     "content_for_index": [
@@ -609,7 +617,8 @@
       "1658545910470a0531",
       "165888049299eb1215",
       "1658559957e5678ccb",
-      "16588990791c6df038"
+      "16588990791c6df038",
+      "1659409814d1086c90"
     ]
   },
   "presets": {
