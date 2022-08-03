@@ -427,7 +427,15 @@ html {
 /* ############################################### new section newsletter ################################################################### */
 
 @media screen and (min-width = 320px) and (max-width = 775px) {
-    div.grid-solo {
-        grid-template-columns: repeat(1,1fr) !important;
+    .colums-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .colums-3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .colums-4 {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
