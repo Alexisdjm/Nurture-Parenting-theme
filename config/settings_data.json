@@ -608,7 +608,7 @@
         "type": "newsletter-off",
         "settings": {
           "first_frase": "let’s keep in touch",
-          "big_text": "<p class=\"pb-10\">Sign Up For Our Newsletter &<\/p><p><\/p>\n<p>Get 10% Off Your First Order<\/p>",
+          "big_text": "<p style=\"font-size: 32px\" class=\"pb-10 raleway\">Sign Up For Our Newsletter &<\/p>\n<p style=\"font-size: 32px\" class=\"pb-10 raleway\">Get 10% Off Your First Order<\/p>",
           "adorno": "shopify:\/\/shop_images\/Frame_353.png"
         }
       }
