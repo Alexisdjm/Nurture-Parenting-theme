@@ -482,3 +482,24 @@ html {
     width: 90px; 
     height:90px;
 }
+
+.newsletter-form {
+    border-bottom: solid;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-width: 2px;
+    height: 30px;
+}
+
+.email-newsletter-width {
+    width: 320px;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.source-sans-pro {
+    font-family: 'Source Sans Pro', sans-serif;
+}
