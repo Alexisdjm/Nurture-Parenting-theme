@@ -358,11 +358,6 @@ font-size: 50px;
     text-decoration: none;
 }
 
-.grid-center {
-    display: grid;
-    align-items: center;
-}
-
 .colums-2 {
     grid-template-columns: repeat(2, 1fr);
 }
@@ -425,5 +420,14 @@ html {
     padding-bottom: 15px;
 }
 
+.grid-solo {
+    display: grid;
+}
+
 /* ############################################### new section newsletter ################################################################### */
 
+@media (max-width = 775px) {
+    .grid-solo {
+        display: block;
+    }
+}
