@@ -503,3 +503,7 @@ html {
 .source-sans-pro {
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.section-margin {
+    margin: 75px 0;
+}
