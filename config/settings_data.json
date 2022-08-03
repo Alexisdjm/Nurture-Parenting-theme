@@ -579,6 +579,7 @@
             "settings": {
               "title_icons": "About us",
               "text_icons": "<p>\n<a class=\"catorce\" href=\"#\">+(58) 0412 761 5686<\/a><a><\/a>\n<br>\n<a class=\"catorce\" href=\"#\">Alexis.jm29@gmail.com<\/a><a><\/a>\n<\/p>",
+              "title_icons2": "Description",
               "icons": "<ul>\n<li><i class=\"fa-brands fa-facebook\"><\/i><\/li>\n<li><i class=\"fa-brands fa-twitter\"><\/i><\/li>\n<li><i class=\"fa-brands fa-instagram\"><\/i><\/li>\n<li><i class=\"fa-brands fa-youtube\"><\/i><\/li>\n<li><i class=\"fa-brands fa-pinterest\"><\/i><\/li>\n<\/ul>",
               "width": 1
             }
@@ -589,7 +590,7 @@
               "title": "Shop",
               "text": "<p><a class=\"catorce text-underline-none\" href=\"#\">Programs<\/a><a><\/a><\/p>\n<p><a class=\"catorce text-underline-none\" href=\"#\">Ebooks<\/a><a><\/a><\/p>\n<p><a class=\"catorce text-underline-none\" href=\"#\">Other Products<\/a><a><\/a><\/p><p><a class=\"catorce text-underline-none\" href=\"#\">Home Services<\/a><a><\/a><\/p>",
               "text1": "",
-              "width": 2
+              "width": 1
             }
           }
         },
