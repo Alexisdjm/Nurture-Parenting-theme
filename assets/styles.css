@@ -426,8 +426,8 @@ html {
 
 /* ############################################### new section newsletter ################################################################### */
 
-@media only screen and (min-width = 320px) and (max-width = 775px) {
+@media screen and (min-width = 320px) and (max-width = 775px) {
     div.grid-solo {
-        display: block;
+        grid-template-columns: repeat(1,1fr) !important;
     }
 }
