@@ -519,3 +519,12 @@ html {
     margin-bottom: 0 !important; 
     font-weight: 600;
 }
+
+.newsletter-container {
+    height: 30vw; 
+    min-height: 350px; 
+    max-height: 700px; 
+    background-color: #FBEFEE; 
+    display: grid; 
+    align-items: center;
+}
