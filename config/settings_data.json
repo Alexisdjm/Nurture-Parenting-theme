@@ -629,7 +629,8 @@
             "settings": {
               "username": "<h2 class=\"review-customer-name source-sans-pro dieciseis\">Linda S. Verified Buyer<\/h2>",
               "title": "<h2 class=\"review-title-color source-sans-pro dieciocho\">Worked great!<\/h2>",
-              "content": "<p class=\"catorce\">Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and<\/p>"
+              "content": "<p class=\"catorce\">Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and<\/p>",
+              "review_image": "shopify:\/\/shop_images\/IMG_3138-scaled_2.png"
             }
           }
         },
