@@ -1,0 +1,64 @@
+<div style="align-items: center;" class="w-100, section-margin; grid-solo">
+    <div style="height: fit-content;" class="w-100; grid-solo; section-margin; py-3; colums-{{ section.settings.reviews_num }}">
+        {% for block in section.blocks %}
+            <div class="review-card-dimensions flex-center">
+                <div style="margin: 5px">
+                    <img width="100px" height="112px" src="{{ block.settings.review_image | img_url: 'master' }}" alt="review image">
+                </div>
+                <div>
+                    {{ block.settings.username }}
+                    {{ block.settings.title }}
+                    {{ block.settings.content }}                   
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% schema %}
+    {
+        "name": "Reviews",
+        "class": "reviews-class",
+        "settings": [
+            {
+                "type": "range",
+                "id": "reviews_num",
+                "default": 1,
+                "min": 1,
+                "max": 2,
+                "label": "ammount of reviews"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "text",
+                "name": "Review card",
+                "settings": [
+                    {
+                        "type": "textarea",
+                        "id": "username",
+                        "label": "user",
+                        "default": "<h2 class='review-customer-name source-sans-pro dieciseis'>Name of customer</h2>"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "title",
+                        "label": "title",
+                        "default": "<h2 class='review-title-color source-sans-pro dieciocho'>title of review</h2>"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "content",
+                        "label": "content",
+                        "default": "<p class='catorce'>content of review</p>"
+                    },
+                    {
+                       "type": "image_picker",
+                       "id": "review_image",
+                       "label": "image"
+                    }
+               ]
+
+            }
+        ]
+    }
+{% endschema %}
