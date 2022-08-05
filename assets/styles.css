@@ -540,7 +540,7 @@ html {
 
 .flex-begin {
     display: flex;
-    justify-content: right;
+    justify-content: left;
 }
 
 /* ################################################ reviews section ############################################################# */
