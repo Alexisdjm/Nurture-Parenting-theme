@@ -1,4 +1,4 @@
-<div class="w-100; section-margin; newsletter-container">
+<div class="w-100; section-margin; newsletter-container; relative-999">
     <div style="position: relative; z-index: 1;" class="w-100">
         <h2 class="newsletter-first-text w-100 text-center source-sans-pro">{{ section.settings.first_frase }}</h2>
         <div style="padding-bottom: 40px;" class="w-100 text-center">
@@ -8,8 +8,8 @@
             <input class="newsletter-form email-newsletter-width" type="email" placeholder="Email">
             <a class="newsletter-form" href="#"><i class="fa-solid fa-angle-right"></i></a>
         </div>
-        <div style="position: relative; left:78%">
-            <img style="position: absolute; z-index: 20;" src="{{ section.settings.adorno | img_url: 'master' }}" alt="adorno">
+        <div class="w-100 flex-end" style="position: relative;">
+            <img style="position: absolute; z-index: 20; top: -18vh;" src="{{ section.settings.adorno | img_url: 'master' }}" alt="adorno">
         </div>
     </div>
 </div>
