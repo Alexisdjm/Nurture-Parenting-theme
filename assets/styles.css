@@ -538,6 +538,11 @@ html {
     justify-content: end;
 }
 
+.flex-begin {
+    display: flex;
+    justify-content: right;
+}
+
 /* ################################################ reviews section ############################################################# */
 
 .review-card-dimensions {

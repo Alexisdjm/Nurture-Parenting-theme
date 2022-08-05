@@ -1,17 +1,19 @@
 <div style="align-items: center;" class="w-100, section-margin; grid-solo">
-    <div style="height: fit-content;" class="w-100; grid-solo; section-margin; py-3; colums-{{ section.settings.reviews_num }}">
-        {% for block in section.blocks %}
-            <div class="review-card-dimensions flex-center">
-                <div style="margin: 5px">
-                    <img width="100px" height="112px" src="{{ block.settings.review_image | img_url: 'master' }}" alt="review image">
+    <div class="w-100 flex-center">
+        <div style="height: fit-content; display: grid; width: fit-content;" class="section-margin; py-3; colums-{{ section.settings.reviews_num }}">
+            {% for block in section.blocks %}
+                <div class="review-card-dimensions flex-begin">
+                    <div style="margin: 5px">
+                        <img width="100px" height="112px" src="{{ block.settings.review_image | img_url: 'master' }}" alt="review image">
+                    </div>
+                    <div>
+                        {{ block.settings.username }}
+                        {{ block.settings.title }}
+                        {{ block.settings.content }}                   
+                    </div>
                 </div>
-                <div>
-                    {{ block.settings.username }}
-                    {{ block.settings.title }}
-                    {{ block.settings.content }}                   
-                </div>
-            </div>
-        {% endfor %}
+            {% endfor %}
+        </div>
     </div>
 </div>
 {% schema %}
