@@ -620,7 +620,8 @@
             "settings": {
               "username": "<h2 class=\"review-customer-name source-sans-pro dieciseis\">Elsa M. Verified Buyer<\/h2>",
               "title": "<h2 class=\"review-title-color source-sans-pro dieciocho\">Great Book!<\/h2>",
-              "content": "<p class=\"catorce\">Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and.<\/p>"
+              "content": "<p class=\"catorce\">Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and.<\/p>",
+              "review_image": "shopify:\/\/shop_images\/Libro.jpg"
             }
           },
           "b128ee19-25f1-4685-99a0-ed3ca1b1353f": {
