@@ -611,6 +611,34 @@
           "big_text": "<p style=\"font-size: 32px; font-weight: 600\" class=\"raleway\">Sign Up For Our Newsletter &<\/p>\n<p style=\"font-size: 32px;  font-weight: 600\" class=\"pb-10 raleway\">Get 10% Off Your First Order<\/p>",
           "adorno": "shopify:\/\/shop_images\/Frame_353-removebg-preview.png"
         }
+      },
+      "16596726517add4421": {
+        "type": "reviews",
+        "blocks": {
+          "a57431ab-2741-448b-aeb6-5575bf462fe7": {
+            "type": "text",
+            "settings": {
+              "username": "<h2 class=\"review-customer-name source-sans-pro dieciseis\">Name of customer<\/h2>",
+              "title": "<h2 class=\"review-title-color source-sans-pro dieciocho\">title of review<\/h2>",
+              "content": "<p class=\"catorce\">content of review<\/p>"
+            }
+          },
+          "b128ee19-25f1-4685-99a0-ed3ca1b1353f": {
+            "type": "text",
+            "settings": {
+              "username": "<h2 class=\"review-customer-name source-sans-pro dieciseis\">Name of customer<\/h2>",
+              "title": "<h2 class=\"review-title-color source-sans-pro dieciocho\">title of review<\/h2>",
+              "content": "<p class=\"catorce\">content of review<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "a57431ab-2741-448b-aeb6-5575bf462fe7",
+          "b128ee19-25f1-4685-99a0-ed3ca1b1353f"
+        ],
+        "settings": {
+          "reviews_num": 1
+        }
       }
     },
     "content_for_index": [
@@ -619,7 +647,8 @@
       "165888049299eb1215",
       "1658559957e5678ccb",
       "16588990791c6df038",
-      "1659409814d1086c90"
+      "1659409814d1086c90",
+      "16596726517add4421"
     ]
   },
   "presets": {
