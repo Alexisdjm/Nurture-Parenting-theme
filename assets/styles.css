@@ -533,9 +533,3 @@ html {
     display: flex;
     justify-content: end;
 }
-
-.relative-999 {
-    position: relative;
-    z-index: 999;
-}
-
