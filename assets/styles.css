@@ -651,11 +651,10 @@ html {
   }
   
   .inner-slide{
-      width: 100%;
+      width: 30%;
       height:40vh;
       padding: 2em 5em;;
       background:#F9F8F8;
-      border-radius:2em;
   }
   
   .inner-slide h1{
