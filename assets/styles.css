@@ -572,14 +572,15 @@ html {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    width:100%;
+    max-width: 1350px;
+    position: relative;
+    margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: block;
 }
 
 /* Next & previous buttons */
@@ -590,11 +591,9 @@ html {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: grey;
   font-weight: bold;
   font-size: 18px;
   transition: 0.3s ease;
-  border-radius: 0 3px 3px 0;
   user-select: none;
 }
 
