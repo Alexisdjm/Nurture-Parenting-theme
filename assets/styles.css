@@ -787,15 +787,7 @@ picture img{
     color: #444;
 }
 small{color: #555;}
-/* a{
-    text-decoration: none;
-    padding: 6px 14px;
-    font-size: 15px;
-    margin: 5px 0 0 20px;
-    display: inline-block;
-    background: #6773ff;
-    color: white;
-} */
+
 p.star{
     margin: 5px auto;
     width: 65%;
