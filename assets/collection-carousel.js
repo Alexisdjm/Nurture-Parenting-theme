@@ -34,8 +34,8 @@ function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {document.getElementsByClassName("next").href = 'javascript:void(0)'}
-  if (n < 1) {document.getElementsByClassName("prev").href = 'javascript:void(0)'}
+  if (n > slides.length) {document.getElementsByClassName("next").disabled = 'true'}
+  if (n < 1) {document.getElementsByClassName("prev").disabled = 'true'}
   console.log(n);
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
