@@ -750,11 +750,10 @@ section::-webkit-scrollbar{
     display: none;
 }
 section .product{
-    min-width: 31%;
+    min-width: 33%;
     height: 90%;
     background: whitesmoke;
-    margin:  0 20px  0 0;
-    border-radius: 20px;
+    margin:  0 20px 0 0;
     position: relative;
     left: 0;
     transition: 0.5s;
