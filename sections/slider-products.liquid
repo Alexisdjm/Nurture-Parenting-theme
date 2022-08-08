@@ -13,7 +13,7 @@
                     <img src="{{ product.featured_media.preview_image | img_url: 'master' }}" alt="{{ product.title }}">
                 </picture>
                 <div class="detail">
-                    <div class="w-100 flex-center">
+                    <div class="w-100 flex-center my-3">
                         <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
                         <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
                         <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
@@ -21,7 +21,9 @@
                         <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
                     </div>
                     <p style="text-align: center;">
-                        <b style="font-weight: lighter;" class="source-sans-pro">{{ product.title }}</b><br>
+                        <a style="font-weight: lighter;" class="source-sans-pro dieciseis" href="{{ product.url }}"><p>{{ product.title }}</p></a>
+                        <br>
+                        <br>
                         <samp style="color: #EDC0BD;">{{ product.price | money_without_trailing_zeros }}</samp>
                     </p>
                 </div>
