@@ -5,21 +5,28 @@
     </p>
 </header>
 <section>
-    
-    {% for product in collection.products %}
-        <div class="product">
-            <picture>
-                <img src="{{ product.featured_image.src | img_url: 'master' }}" alt="ss">
-            </picture>
-            <div class="detail">
-                <p>
-                    <a href="{{ product. }}">{{ product.title }}</a><br>
-                    <samp>{{ product.price | money }}</samp>
-                </p>
-            </div>
+    <div class="product">
+        <picture>
+            <img src="image/banner2.png" alt="ss">
+        </picture>
+        <div class="detail">
+            <p>
+                <b>Product One</b><br>
+                <small>New arrival</small>
+            </p>
+            <samp>$45.00</samp>
         </div>
-    {% endfor %}
-        
+        <div class="button">
+            <p class="star">
+                <strong>&star;</strong>
+                <strong>&star;</strong>
+                <strong>&star;</strong>
+                <strong>&star;</strong>
+                <strong>&star;</strong>
+            </p>
+            <a href="#">Add-cart</a>
+        </div>
+    </div>
     <div class="product">
         <picture>
             <img src="image/banner1.png" alt="ss">
