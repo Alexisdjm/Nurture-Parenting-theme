@@ -751,7 +751,7 @@ section::-webkit-scrollbar{
 }
 section .product{
     min-width: 33%;
-    height: 90%;
+    height: 32vw;
     background: white;
     margin:  0 20px 0 0;
     position: relative;
@@ -783,10 +783,9 @@ picture img{
 small{color: #555;}
 
 p.star{
-    margin: 5px auto;
-    width: 65%;
+    width: fit-content;
     font-size: 25px;
-    color: #808080;
+    margin: 0 auto;
 }
 @media (max-width: 768px) {
     .text h1{
