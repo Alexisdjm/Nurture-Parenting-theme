@@ -20,12 +20,12 @@
                         <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
                         <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
                     </div>
-                    <p style="text-align: center;">
-                        <a style="font-weight: lighter;" class="source-sans-pro dieciseis" href="{{ product.url }}"><p>{{ product.title }}</p></a>
+                    <div style="text-align: center;">
+                        <a style="font-weight: lighter; text-decoration: none;" class="source-sans-pro dieciseis" href="{{ product.url }}"><p>{{ product.title }}</p></a>
                         <br>
                         <br>
                         <samp style="color: #EDC0BD;">{{ product.price | money_without_trailing_zeros }}</samp>
-                    </p>
+                    </div>
                 </div>
             </div>     
         {% endfor %}
