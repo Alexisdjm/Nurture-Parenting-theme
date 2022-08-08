@@ -1,4 +1,4 @@
-<div style="padding: 0 0 4em" class="section-margin">
+<div style="padding: 0 0 12em" class="section-margin">
     <div style="margin-bottom: 30px" class="w-100; flex-center">
         <h2 style="font-size: 36px; color:#361E45;">{{ section.settings.title }}</h2>
     </div>
@@ -13,13 +13,15 @@
                     <img src="{{ product.featured_media.preview_image | img_url: 'master' }}" alt="{{ product.title }}">
                 </picture>
                 <div class="detail">
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                    </p>
+                    <div class="w-100 flex-center">
+                        <ul>
+                            <li><img src="{{ section.settings.star | img_url: 'master' }}" alt="star"></li>
+                            <li><img src="{{ section.settings.star | img_url: 'master' }}" alt="star"></li>
+                            <li><img src="{{ section.settings.star | img_url: 'master' }}" alt="star"></li>
+                            <li><img src="{{ section.settings.star | img_url: 'master' }}" alt="star"></li>
+                            <li><img src="{{ section.settings.star | img_url: 'master' }}" alt="star"></li>
+                        </ul>
+                    </div>
                     <p style="text-align: center;">
                         <b style="font-weight: lighter;" class="source-sans-pro">{{ product.title }}</b><br>
                         <samp style="color: #EDC0BD;">{{ product.price | money_without_trailing_zeros }}</samp>
@@ -27,215 +29,6 @@
                 </div>
             </div>     
         {% endfor %}
-        <!-- <div class="product">
-            <picture>
-                <img src="image/banner1.png" alt="ss">
-            </picture>
-            <div class="detail">
-                <p class="star">
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                </p>
-                <p style="text-align: center;">
-                    <b>Product Two</b><br>
-                    <samp>$45.00</samp>
-                </p>
-            </div>
-    
-        </div>
-        <div class="product">
-            <picture>
-                <img src="image/banner3.png" alt="ss">
-            </picture>
-            <div class="detail">
-                <p class="star">
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                </p>
-                <p style="text-align: center;">
-                    <b>Product Three</b><br>
-                    <samp>$45.00</samp>
-                </p>
-            </div>
-    
-        </div>
-        <div class="product">
-            <picture>
-                <img src="image/banner4.png" alt="ss">
-            </picture>
-            <div class="detail">
-                <p class="star">
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                </p>
-                <p style="text-align: center;">
-                    <b>Product Four</b><br>
-                    <samp>$45.00</samp>
-                </p>
-            </div>
-    
-        </div>
-        <div class="product">
-            <picture>
-                <img src="image/watch.png" alt="ss">
-            </picture>
-            <div class="detail">
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                    </p>
-                <p style="text-align: center;">
-                    <b>Product Five</b><br>
-                    <samp>$45.00</samp>
-                </p>
-            </div>
-    
-        </div>
-        <div class="product">
-            <picture>
-                <img src="image/delta.png" alt="ss">
-            </picture>
-            <div class="detail">
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                    </p>
-                <p style="text-align: center;">
-                    <b>Product Six</b><br>
-                    <samp>$45.00</samp>
-                </p>
-            </div>
-    
-        </div>
-        <div class="product">
-            <picture>
-                <img src="image/image3.png" alt="ss">
-            </picture>
-            <div class="detail">
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                    </p>
-                <p style="text-align: center;">
-                    <b>Product Seven</b><br>
-                    <samp>$45.00</samp>
-                </p>
-            </div>
-    
-        </div>
-        <div class="product">
-            <picture>
-                <img src="image/image2.png" alt="ss">
-            </picture>
-            <div class="detail">
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                    </p>
-                <p style="text-align: center;">
-                    <b>Product Eight</b><br>
-                    <samp>$45.00</samp>
-                </p>
-            </div>
-    
-        </div>
-        <div class="product">
-            <picture>
-                <img src="image/nokia.png" alt="ss">
-            </picture>
-            <div class="detail">
-            <p class="star">
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-            </p>
-                <p style="text-align: center;">
-                    <b>Product Nine</b><br>
-                    <samp>$45.00</samp>
-                </p>
-            </div>
-    
-        </div>
-        <div class="product">
-            <picture>
-                <img src="image/nokia-air.png" alt="ss">
-            </picture>
-            <div class="detail">
-            <p class="star">
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-            </p>
-                <p style="text-align: center;">
-                    <b>Product Ten</b><br>
-                    <samp>$45.00</samp>
-                </p>
-            </div>
-    
-        </div>
-        <div class="product">
-            <picture>
-                <img src="image/feature_3.png" alt="ss">
-            </picture>
-            <div class="detail">
-            <p class="star">
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-            </p>
-                <p style="text-align: center;">
-                    <b>Product Eleven</b><br>
-                    <samp>$45.00</samp>
-                </p>
-            </div>
-    
-        </div>
-        <div class="product">
-            <picture>
-                <img src="image/one.png" alt="ss">
-            </picture>
-            <div class="detail">
-            <p class="star">
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-                <strong>&star;</strong>
-            </p>
-                <p style="text-align: center;">
-                    <b>Product Twelve</b><br>
-                    <samp>$45.00</samp>
-                </p>
-            </div>
-    
-        </div> -->
     </section>
 </div>
 {% schema %}
@@ -252,6 +45,11 @@
                 "type": "text",
                 "id": "title",
                 "label": "title"
+            },
+            {
+               "type": "image_picker",
+               "id": "star",
+               "label": "star"
             }
         ],
        "presets": [
