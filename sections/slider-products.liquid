@@ -6,34 +6,28 @@
         <span style="position: absolute; right:95%; font-size: 60px;" class="arrow">&#139;</span>
         <span style="position: absolute; left:95%; font-size: 60px;" class="arrow">&#155;</span>
     </p>
-    <div>
-        {% for product in collection.products %}
-            <p>{{ product.title }}</p>
-        {% endfor %}
-
-    </div>
-        
     <section>
-        <div class="product">
-            <picture>
-                <img src="image/banner2.png" alt="ss">
-            </picture>
-            <div class="detail">
-                <p class="star">
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                    <strong>&star;</strong>
-                </p>
-                <p style="text-align: center;">
-                    <b>Product One</b><br>
-                    <samp>$45.00</samp>
-                </p>
-            </div>
-    
-        </div>
-        <div class="product">
+        {% for product in collection[section.settings.Programs_available].products %}
+            <div class="product">
+                <picture>
+                    <img src="{{ product.featured_media.preview_image | img_url: 'master' }}" alt="{{ product.title }}">
+                </picture>
+                <div class="detail">
+                    <p class="star">
+                        <strong>&star;</strong>
+                        <strong>&star;</strong>
+                        <strong>&star;</strong>
+                        <strong>&star;</strong>
+                        <strong>&star;</strong>
+                    </p>
+                    <p style="text-align: center;">
+                        <b>{{ product.title }}</b><br>
+                        <samp>{{ product.price | money_without_trailing_zeros }}</samp>
+                    </p>
+                </div>
+            </div>     
+        {% endfor %}
+        <!-- <div class="product">
             <picture>
                 <img src="image/banner1.png" alt="ss">
             </picture>
@@ -241,7 +235,7 @@
                 </p>
             </div>
     
-        </div>
+        </div> -->
     </section>
 </div>
 {% schema %}
