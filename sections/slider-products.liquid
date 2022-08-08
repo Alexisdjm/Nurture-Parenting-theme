@@ -7,7 +7,7 @@
         <span style="position: absolute; left:95%; font-size: 60px;" class="arrow">&#155;</span>
     </p>
     <section>
-        {% for product in collection[section.settings.Programs_available].products %}
+        {% for product in collections[section.settings.Programs_available].products %}
             <div class="product">
                 <picture>
                     <img src="{{ product.featured_media.preview_image | img_url: 'master' }}" alt="{{ product.title }}">
