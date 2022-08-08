@@ -3,6 +3,11 @@
         <span style="position: absolute; right:95%; font-size: 60px;" class="arrow">&#139;</span>
         <span style="position: absolute; left:95%; font-size: 60px;" class="arrow">&#155;</span>
     </p>
+    
+    {% for product in collection.products %}
+        <p>{{ product.title }}</p>
+    {% endfor %}
+        
     <section>
         <div class="product">
             <picture>
@@ -240,14 +245,14 @@
         "class": "Programs",
         "settings": [
             {
-            "type": "collection",
-            "id": "Programs_available",
-            "label": "Programs"
+                "type": "collection",
+                "id": "Programs_available",
+                "label": "Programs"
             },
             {
-            "type": "text",
-            "id": "title",
-            "label": "title"
+                "type": "text",
+                "id": "title",
+                "label": "title"
             }
         ],
        "presets": [
