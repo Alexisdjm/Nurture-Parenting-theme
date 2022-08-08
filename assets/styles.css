@@ -723,7 +723,7 @@ main header{
 }
 header p span{
     font-size: 40px;
-    margin: 100px 5px;
+    margin: 100px 5px 30px;
     cursor: pointer;
     color: #555;
     width: 30px;
@@ -739,7 +739,7 @@ header p span:hover{
 }
 section{
     width: 98%;
-    height: 600px;
+    height: fit-content;
     /*background: red;*/
     margin: auto;
     display: flex;
