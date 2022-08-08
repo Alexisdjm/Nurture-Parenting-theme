@@ -3,10 +3,12 @@
         <span style="position: absolute; right:95%; font-size: 60px;" class="arrow">&#139;</span>
         <span style="position: absolute; left:95%; font-size: 60px;" class="arrow">&#155;</span>
     </p>
-    
-    {% for product in collection.products %}
-        <p>{{ product.title }}</p>
-    {% endfor %}
+    <div>
+        {% for product in collection.products %}
+            <p>{{ product.title }}</p>
+        {% endfor %}
+
+    </div>
         
     <section>
         <div class="product">
