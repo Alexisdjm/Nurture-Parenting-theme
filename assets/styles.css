@@ -686,7 +686,6 @@ html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: -webkit-pictograph;
 }
 main{
     width: 100%;
@@ -724,10 +723,10 @@ main header{
 }
 header p span{
     font-size: 40px;
-    margin: 0 5px;
+    margin: 100px 5px;
     cursor: pointer;
     color: #555;
-        width: 30px;
+    width: 30px;
     height: 30px;
     display: inline-block;
     line-height: 19px;
@@ -779,12 +778,8 @@ picture img{
     /*background: red;*/
     margin: auto;
     padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 50px;
     font-size: 20px;
-    color: #444;
 }
 small{color: #555;}
 
