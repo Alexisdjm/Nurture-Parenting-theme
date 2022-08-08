@@ -752,7 +752,7 @@ section::-webkit-scrollbar{
 section .product{
     min-width: 33%;
     height: 90%;
-    background: whitesmoke;
+    background: white;
     margin:  0 20px 0 0;
     position: relative;
     left: 0;
