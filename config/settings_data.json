@@ -543,7 +543,8 @@
         "type": "slider-products",
         "settings": {
           "Programs_available": "programs",
-          "title": "Our Programs"
+          "title": "Our Programs",
+          "star": "shopify:\/\/shop_images\/Star_1.png"
         }
       },
       "16588990791c6df038": {
