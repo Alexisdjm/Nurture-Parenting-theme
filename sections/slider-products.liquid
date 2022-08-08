@@ -10,7 +10,7 @@
         {% for product in collections[section.settings.Programs_available].products %}
             <div class="product">
                 <picture>
-                    <img src="{{ product.featured_media.preview_image | img_url: 'master' }}" alt="{{ product.title }}">
+                    <img width="80%" height="80%" src="{{ product.featured_media.preview_image | img_url: 'master' }}" alt="{{ product.title }}">
                 </picture>
                 <div class="detail">
                     <p class="star">
