@@ -754,7 +754,6 @@ picture{
     /*background: green;*/
     display: flex;
     overflow: hidden;
-    margin-bottom: 20px;
 }
 picture img{
     width: 100%;
