@@ -731,11 +731,12 @@ header p span:hover{
 }
 section{
     width: 98%;
-    height: fit-content;
     /*background: red;*/
     margin: auto;
     display: flex;
-    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 45vw;
 }
 section .product{
     min-width: 33%;
