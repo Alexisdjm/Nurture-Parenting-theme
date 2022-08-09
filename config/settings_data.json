@@ -652,10 +652,37 @@
               "ebook_title": "<p class=\"dieciseis source-sans-pro\">Baby Sleep Rescue & The 3 Minute Rule eBook<\/p>",
               "ebook_price": "<p class=\"source-sans-pro\" style=\"color: #EDC0BD !important;\">$150<\/p>"
             }
+          },
+          "acaf39aa-bbb1-43a0-bb0c-5a8863c6f189": {
+            "type": "text",
+            "settings": {
+              "ebook_image": "shopify:\/\/shop_images\/Libro.jpg",
+              "ebook_title": "<p class=\"dieciseis source-sans-pro\">Baby Sleep Rescue & The 3 Minute Rule eBook<\/p>",
+              "ebook_price": "<p class=\"source-sans-pro\" style=\"color: #EDC0BD !important;\">$150<\/p>"
+            }
+          },
+          "24d26d52-f040-44d0-8643-4d92a6a15fcd": {
+            "type": "text",
+            "settings": {
+              "ebook_image": "shopify:\/\/shop_images\/Libro.jpg",
+              "ebook_title": "<p class=\"dieciseis source-sans-pro\">Baby Sleep Rescue & The 3 Minute Rule eBook<\/p>",
+              "ebook_price": "<p class=\"source-sans-pro\" style=\"color: #EDC0BD !important;\">$150<\/p>"
+            }
+          },
+          "9a69c8de-ddc5-4df2-af8e-1ef8e5bb350a": {
+            "type": "text",
+            "settings": {
+              "ebook_image": "shopify:\/\/shop_images\/Libro.jpg",
+              "ebook_title": "<p class=\"dieciseis source-sans-pro\">ebook title<\/p>",
+              "ebook_price": "<p class=\"source-sans-pro\" style=\"color: #EDC0BD !important;\">$<\/p>"
+            }
           }
         },
         "block_order": [
-          "f4eec23f-ce90-46b7-a420-a75a9db23844"
+          "f4eec23f-ce90-46b7-a420-a75a9db23844",
+          "acaf39aa-bbb1-43a0-bb0c-5a8863c6f189",
+          "24d26d52-f040-44d0-8643-4d92a6a15fcd",
+          "9a69c8de-ddc5-4df2-af8e-1ef8e5bb350a"
         ],
         "settings": {
           "title": "E-Books",
