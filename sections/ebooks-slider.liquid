@@ -1,0 +1,70 @@
+<div style="background-color: #f8f8f8;" class="w-100 section-margin">
+    <div style="margin-bottom: 30px" class="w-100; flex-center">
+        <h2 style="font-size: 36px; color:#361E45;">{{ section.settings.title }}</h2>
+    </div>
+    <section>
+        {% for block in section.blocks %}
+            <div class="ebook">
+                <picture>
+                    <img src="{{ block.settings.ebook_image | img_url: 'master' }}" alt="ebook">
+                </picture>
+                <div class="detail">
+                    <div style="margin-bottom: 1rem;" class="w-100 flex-center">
+                        <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
+                        <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
+                        <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
+                        <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
+                        <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
+                    </div>
+                    <div class="programs-text-container">
+                        <a style="font-weight: lighter; text-decoration: none;" class="source-sans-pro dieciseis" href="#">{{ block.settings.ebook_title }}</a>
+                        <p class="source-sans-pro" style="color: #EDC0BD !important;">{{ block.settings.ebook_price | money_without_trailing_zeros }}</p>
+                    </div>
+                </div>
+            </div>     
+        {% endfor %}
+    </section>
+</div>
+{% schema %}
+    {
+        "name": "Ebooks section",
+        "class": "ebooks",
+        "settings": [
+            {
+               "type": "text",
+               "id":"title",
+               "label":"title section"
+            },
+            {
+                "type": "image_picker",
+                "id": "star",
+                "label": "star"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "text",
+                "name": "ebook",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "ebook_image",
+                        "label": "ebook image"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "ebook_title",
+                        "label": "ebook title",
+                        "default": "<p class='dieciseis source-sans-pro'>ebook title</p>"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "ebook_price",
+                        "label": "ebook price",
+                        "default": "<p class='source-sans-pro' style='color: #EDC0BD !important;'>$</p>"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}
