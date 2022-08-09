@@ -736,7 +736,8 @@ section{
     display: flex;
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 45vw;
+    height: 50vw;
+    max-height: 1700px;
 }
 section .product{
     min-width: 33%;
