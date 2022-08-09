@@ -641,6 +641,25 @@
         "settings": {
           "reviews_num": 2
         }
+      },
+      "1660084555779702c3": {
+        "type": "ebooks-slider",
+        "blocks": {
+          "f4eec23f-ce90-46b7-a420-a75a9db23844": {
+            "type": "text",
+            "settings": {
+              "ebook_image": "shopify:\/\/shop_images\/Libro.jpg",
+              "ebook_title": "<p class=\"dieciseis source-sans-pro\">Baby Sleep Rescue & The 3 Minute Rule eBook<\/p>",
+              "ebook_price": "<p class=\"source-sans-pro\" style=\"color: #EDC0BD !important;\">$150<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "f4eec23f-ce90-46b7-a420-a75a9db23844"
+        ],
+        "settings": {
+          "title": ""
+        }
       }
     },
     "content_for_index": [
@@ -650,7 +669,8 @@
       "1658559957e5678ccb",
       "16588990791c6df038",
       "1659409814d1086c90",
-      "16596726517add4421"
+      "16596726517add4421",
+      "1660084555779702c3"
     ]
   },
   "presets": {
