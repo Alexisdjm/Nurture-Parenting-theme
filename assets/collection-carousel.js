@@ -2,7 +2,7 @@ let span = document.getElementsByClassName('arrow');
 	let product = document.getElementsByClassName('product')
 	let product_page = Math.ceil(product.length/4);
 	let l = 0;
-	let movePer = 40;
+	let movePer = 70;
 	let maxMove = 203;
 	// mobile_view	
 	let mob_view = window.matchMedia("(max-width: 768px)");
