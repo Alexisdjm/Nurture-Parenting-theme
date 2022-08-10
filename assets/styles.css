@@ -812,10 +812,22 @@ p.star{
 /* ########################################### ebooks section ############################################################## */
 
 section .ebook {
-    min-width: 25%;
+    max-width: 271px;
     height: 32vw;
-    margin:  0 20px 0 0;
+    max-height: 378px;
     position: relative;
     left: 0;
     transition: 0.5s;
+}
+
+.ebook-title-padding {
+    padding: 70px 0 30px;
+}
+
+.ebook-section-height {
+    height:600px !important;
+}
+
+.picture-padding {
+    padding: 10px !important;
 }

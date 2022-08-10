@@ -1,11 +1,11 @@
 <div style="background-color: #f8f8f8;" class="w-100 section-margin">
-    <div style="margin-bottom: 30px" class="w-100; flex-center">
+    <div class="w-100; flex-center; ebook-title-padding">
         <h2 style="font-size: 36px; color:#361E45;">{{ section.settings.title }}</h2>
     </div>
-    <section>
+    <section class="ebook-section-height">
         {% for block in section.blocks %}
             <div class="ebook">
-                <picture>
+                <picture class="picture-padding">
                     <img src="{{ block.settings.ebook_image | img_url: 'master' }}" alt="ebook">
                 </picture>
                 <div class="detail">
@@ -61,7 +61,7 @@
                         "type": "textarea",
                         "id": "ebook_price",
                         "label": "ebook price",
-                        "default": "<p class='source-sans-pro' style='color: #EDC0BD !important;'>$</p>"
+                        "default": "<p class='source-sans-pro' style='color: #EDC0BD !important;'></p>"
                     }
                 ]
             }
