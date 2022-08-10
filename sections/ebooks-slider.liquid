@@ -2,6 +2,10 @@
     <div class="w-100; ebook-title-padding">
         <h2 style="font-size: 36px; color:#361E45; text-align: center;">{{ section.settings.title }}</h2>
     </div>
+    <p style="position: relative; z-index:999; top:150px">
+        <span style="position: absolute; right:95%; font-size: 60px;" class="ebook-arrow">&#139;</span>
+        <span style="position: absolute; left:95%; font-size: 60px;" class="ebook-arrow">&#155;</span>
+    </p>
     <section class="ebook-section-height flex-center">
         {% for block in section.blocks %}
             <div class="ebook">
