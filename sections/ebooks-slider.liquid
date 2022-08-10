@@ -6,9 +6,9 @@
         <span style="position: absolute; right:95%; font-size: 60px;" class="ebook-arrow">&#139;</span>
         <span style="position: absolute; left:95%; font-size: 60px;" class="ebook-arrow">&#155;</span>
     </p>
-    <section class="ebook-section-height flex-center">
+    <section class="ebook-section-height">
         {% for block in section.blocks %}
-            <div class="ebook">
+            <div style="min-width: 271px;" class="ebook">
                 <picture class="picture-padding">
                     <img src="{{ block.settings.ebook_image | img_url: 'master' }}" alt="ebook">
                 </picture>
