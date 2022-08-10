@@ -769,6 +769,11 @@ picture img{
     height: 50px;
     font-size: 20px;
 }
+
+.detail {
+    height: fit-content !important;
+}
+
 small{color: #555;}
 
 p.star{
