@@ -676,13 +676,29 @@
               "ebook_title": "<p class=\"dieciseis source-sans-pro\">Baby Sleep Rescue & The 3 Minute Rule eBook<\/p>",
               "ebook_price": "<p class=\"source-sans-pro\" style=\"color: #EDC0BD !important;\">$150<\/p>"
             }
+          },
+          "2b15e2e5-c367-43c9-9e39-a1c40187dffa": {
+            "type": "text",
+            "settings": {
+              "ebook_title": "<p class=\"dieciseis source-sans-pro\">ebook title<\/p>",
+              "ebook_price": "<p class=\"source-sans-pro\" style=\"color: #EDC0BD !important;\"><\/p>"
+            }
+          },
+          "715eb4e4-2a21-4a7b-8e17-da7e876c4734": {
+            "type": "text",
+            "settings": {
+              "ebook_title": "<p class=\"dieciseis source-sans-pro\">ebook title<\/p>",
+              "ebook_price": "<p class=\"source-sans-pro\" style=\"color: #EDC0BD !important;\"><\/p>"
+            }
           }
         },
         "block_order": [
           "f4eec23f-ce90-46b7-a420-a75a9db23844",
           "acaf39aa-bbb1-43a0-bb0c-5a8863c6f189",
           "24d26d52-f040-44d0-8643-4d92a6a15fcd",
-          "9a69c8de-ddc5-4df2-af8e-1ef8e5bb350a"
+          "9a69c8de-ddc5-4df2-af8e-1ef8e5bb350a",
+          "2b15e2e5-c367-43c9-9e39-a1c40187dffa",
+          "715eb4e4-2a21-4a7b-8e17-da7e876c4734"
         ],
         "settings": {
           "title": "E-Books",
