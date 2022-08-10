@@ -12,7 +12,7 @@ let arrow = document.getElementsByClassName('ebook-arrow');
 	 	limitmove = 504;
 	 }
 
-	let right_mover = ()=>{
+	let derecha = ()=>{
 		a = a + movement;
 		if (ebook == 1){a = 0; }
 		for(const i of ebook)
@@ -22,7 +22,7 @@ let arrow = document.getElementsByClassName('ebook-arrow');
 		}
 
 	}
-	let left_mover = ()=>{
+	let izquierda = ()=>{
 		a = a - movement;
 		if (l<=0){a = 0;}
 		for(const i of ebook){
@@ -31,5 +31,5 @@ let arrow = document.getElementsByClassName('ebook-arrow');
 			}
 		}
 	}
-	arrow[1].onclick = ()=>{right_mover();}
-	arrow[0].onclick = ()=>{left_mover();}
+	arrow[1].onclick = ()=>{derecha();}
+	arrow[0].onclick = ()=>{izquierda();}
