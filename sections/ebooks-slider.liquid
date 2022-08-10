@@ -6,28 +6,30 @@
         <span style="position: absolute; right:95%; font-size: 60px;" class="ebook-arrow">&#139;</span>
         <span style="position: absolute; left:95%; font-size: 60px;" class="ebook-arrow">&#155;</span>
     </p>
-    <section class="ebook-section-height">
-        {% for block in section.blocks %}
-            <div style="min-width: 271px;" class="ebook">
-                <picture class="picture-padding">
-                    <img src="{{ block.settings.ebook_image | img_url: 'master' }}" alt="ebook">
-                </picture>
-                <div class="detail">
-                    <div style="margin-bottom: 1rem;" class="w-100 flex-center">
-                        <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
-                        <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
-                        <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
-                        <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
-                        <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
+    <div class="w-100; flex-center">
+        <section style="max-width: 1080px; margin: 0 100px;" class="ebook-section-height">
+            {% for block in section.blocks %}
+                <div style="min-width: 271px;" class="ebook">
+                    <picture class="picture-padding">
+                        <img src="{{ block.settings.ebook_image | img_url: 'master' }}" alt="ebook">
+                    </picture>
+                    <div class="detail">
+                        <div style="margin-bottom: 1rem;" class="w-100 flex-center">
+                            <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
+                            <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
+                            <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
+                            <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
+                            <img width="16px" height="16px" src="{{ section.settings.star | img_url: 'master' }}" alt="star">
+                        </div>
+                        <div class="programs-text-container">
+                            <a style="font-weight: lighter; text-decoration: none;" class="source-sans-pro dieciseis" href="#">{{ block.settings.ebook_title }}</a>
+                            <p class="source-sans-pro" style="color: #EDC0BD !important;">{{ block.settings.ebook_price }}</p>
+                        </div>
                     </div>
-                    <div class="programs-text-container">
-                        <a style="font-weight: lighter; text-decoration: none;" class="source-sans-pro dieciseis" href="#">{{ block.settings.ebook_title }}</a>
-                        <p class="source-sans-pro" style="color: #EDC0BD !important;">{{ block.settings.ebook_price }}</p>
-                    </div>
-                </div>
-            </div>     
-        {% endfor %}
-    </section>
+                </div>     
+            {% endfor %}
+        </section>
+    </div> 
 </div>
 {% schema %}
     {
