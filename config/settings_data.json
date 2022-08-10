@@ -704,6 +704,7 @@
           "b920c077-91d7-4a8a-822f-86e5a5bedbed": {
             "type": "text",
             "settings": {
+              "ebook_image": "shopify:\/\/shop_images\/Libro.jpg",
               "ebook_title": "<p class=\"dieciseis source-sans-pro\">Baby Sleep Rescue & The 3 Minute Rule eBook<\/p>",
               "ebook_price": "<p class=\"source-sans-pro\" style=\"color: #EDC0BD !important;\">$150<\/p>"
             }
