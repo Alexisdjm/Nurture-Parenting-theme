@@ -1,7 +1,7 @@
 let arrow = document.getElementsByClassName('ebook-arrow');
 	let ebook = document.getElementsByClassName('ebook')
 	let ebook_page = Math.ceil(ebook.length/4);
-	let l = 0;
+	let a = 0;
 	let movement = 40;
 	let limitmove = 203;
 	// mobile_view	
@@ -13,21 +13,21 @@ let arrow = document.getElementsByClassName('ebook-arrow');
 	 }
 
 	let right_mover = ()=>{
-		l = l + movement;
-		if (ebook == 1){l = 0; }
+		a = a + movement;
+		if (ebook == 1){a = 0; }
 		for(const i of ebook)
 		{
-			if (l > limitmove){l = l - movement;}
-			i.style.left = '-' + l + '%';
+			if (a > limitmove){a = a - movement;}
+			i.style.left = '-' + a + '%';
 		}
 
 	}
 	let left_mover = ()=>{
-		l = l - movement;
-		if (l<=0){l = 0;}
+		a = a - movement;
+		if (l<=0){a = 0;}
 		for(const i of ebook){
 			if (ebook_page>1){
-				i.style.left = '-' + l + '%';
+				i.style.left = '-' + a + '%';
 			}
 		}
 	}
