@@ -2,8 +2,8 @@ let arrow = document.getElementsByClassName('ebook-arrow');
 	let ebook = document.getElementsByClassName('ebook')
 	let ebook_page = Math.ceil(ebook.length/4);
 	let a = 0;
-	let movement = 40;
-	let limitmove = 163;
+	let movement = 70;
+	let limitmove = 211;
 	// mobile_view	
 	let phone_view = window.matchMedia("(max-width: 768px)");
 	if (phone_view.matches)
