@@ -3,13 +3,13 @@ let arrow = document.getElementsByClassName('ebook-arrow');
 	let ebook_page = Math.ceil(ebook.length/4);
 	let a = 0;
 	let movement = 40;
-	let limitmove = 203;
+	let limitmove = 163;
 	// mobile_view	
 	let phone_view = window.matchMedia("(max-width: 768px)");
 	if (phone_view.matches)
 	 {
 	 	movement = 50.36;
-	 	limitmove = 504;
+	 	limitmove = 373;
 	 }
 
 	let derecha = ()=>{
