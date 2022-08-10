@@ -5,8 +5,8 @@ let arrow = document.getElementsByClassName('ebook-arrow');
 	let movement = 40;
 	let limitmove = 203;
 	// mobile_view	
-	let mob_view = window.matchMedia("(max-width: 768px)");
-	if (mob_view.matches)
+	let phone_view = window.matchMedia("(max-width: 768px)");
+	if (phone_view.matches)
 	 {
 	 	movement = 50.36;
 	 	limitmove = 504;
