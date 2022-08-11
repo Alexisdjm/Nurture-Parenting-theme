@@ -854,7 +854,7 @@ p.star{
 }
 
 .post-fit-image {
-    display: none;
+    display: block;
     position: relative;
     z-index: 999;
     top: -100%;
