@@ -4,12 +4,15 @@
         <span style="position: absolute; right:95%; font-size: 60px;" class="post-arrow">&#139;</span>
         <span style="position: absolute; left:95%; font-size: 60px;" class="post-arrow">&#155;</span>
     </p>
-    <section>
+    <section style="height:fit-content">
         {% for block in section.blocks %}
         <div class="post">
             <picture class="picture-padding">
                 <img src="{{ block.settings.instagram_image | img_url: 'master' }}" alt="post">
             </picture>
+            <div class="post-info">
+                {{ block.settings.post_content }}
+            </div>
         </div>
         {% endfor %}      
     </section>

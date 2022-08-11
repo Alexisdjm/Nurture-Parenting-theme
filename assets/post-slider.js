@@ -2,7 +2,7 @@ let post_arrow = document.getElementsByClassName('post-arrow');
 	let post = document.getElementsByClassName('post')
 	let post_page = Math.ceil(post.length/4);
 	let k = 0;
-	let movimiento = 70;
+	let movimiento = 30;
 	let limite = 180;
 	// mobile_view	
 	let view_mobile = window.matchMedia("(max-width: 768px)");
