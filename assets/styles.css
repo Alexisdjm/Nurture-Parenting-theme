@@ -862,5 +862,5 @@ p.star{
 }
 
 .post-fit-image:hover {
-    display: block;
+    opacity: 0;
 }
