@@ -1,0 +1,70 @@
+<!-- <span class="mdi mdi-heart-outline"></span><span class="mdi mdi-comment-outline"></span> -->
+<div class="w-100 section-margin">
+    <p style="position: relative; z-index:999; top:150px">
+        <span style="position: absolute; right:95%; font-size: 60px;" class="post-arrow">&#139;</span>
+        <span style="position: absolute; left:95%; font-size: 60px;" class="post-arrow">&#155;</span>
+    </p>
+    <section>
+        {% for block in section.blocks %}
+        <div class="post">
+            <picture>
+                <img src="{{ block.settings.instagram_image | img_url: 'master' }}" alt="post">
+            </picture>
+        </div>
+        {% endfor %}      
+    </section>
+</div>
+
+{% schema %}
+    {
+        "name": "social media carousel",
+        "class": "instagram-post",
+       "settings": [
+            {
+                "type": "range",
+                "id": "col_num",
+                "default": 5,
+                "min": 2,
+                "max": 6,
+                "label": "Number of post"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "text",
+                "name": "instagram post",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "instagram_image",
+                        "label": "instagram post"
+                    },
+                    {
+                        "type": "textarea",
+                        "id":"post_content",
+                        "label":"post text",
+                        "default": "<p style='color:white;' class='dieciseis source-sans-pro'>loren ipsum</p>"
+                    },
+                    {
+                        "type": "text",
+                        "id":"likes_number",
+                        "label":"likes",
+                        "default": "0"
+                    },
+                    {
+                        "type": "text",
+                        "id":"comments_number",
+                        "label":"comments",
+                        "default": "0"
+                    }
+                ]
+            }
+        ],
+       "presets": [
+            {
+                "category": "instagram",
+                "name":"instagram posts gallery"
+            }
+       ]
+    }
+{% endschema %}

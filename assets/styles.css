@@ -746,7 +746,6 @@ section .product{
     position: relative;
     left: 0;
     transition: 0.5s;
-
 }
 picture{
     width: 100%;
@@ -815,7 +814,7 @@ p.star{
 
 /* ########################################### ebooks section ############################################################## */
 
-section .ebook {
+.ebook {
     max-width: 271px;
     height: 32vw;
     max-height: 378px;
@@ -834,4 +833,15 @@ section .ebook {
 
 .picture-padding {
     padding: 10px !important;
+}
+
+/* #################################################### instagram post section ############################################################ */
+
+.post{
+    min-width: 33%;
+    height: 32vw;
+    background: white;
+    position: relative;
+    left: 0;
+    transition: 0.5s;
 }
