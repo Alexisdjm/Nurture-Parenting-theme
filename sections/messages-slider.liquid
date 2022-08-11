@@ -10,8 +10,11 @@
             <picture class="picture-padding">
                 <img src="{{ block.settings.instagram_image | img_url: 'master' }}" alt="post">
             </picture>
-            <div class="post-info post-fit-image picture-padding">
-                {{ block.settings.post_content }}
+            <div class=" post-fit-image">
+                <div class="post-info picture-padding">
+                    {{ block.settings.post_content }}
+                </div>
+                
             </div>
         </div>
         {% endfor %}      
