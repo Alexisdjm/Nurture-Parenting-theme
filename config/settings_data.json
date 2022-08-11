@@ -777,7 +777,7 @@
             "type": "text",
             "settings": {
               "instagram_image": "shopify:\/\/shop_images\/A-Asian-man-and-baby-girl-1096875104_2125x1414_9edb4956-a8af-46f0-b680-6ed6656cf1a0.jpg",
-              "post_content": "<p style=\"color: white !important\">loren ipsum<\/p>",
+              "post_content": "<p style=\"color: white !important; text-align: center\">loren ipsum<\/p>",
               "likes_number": "0",
               "comments_number": "0"
             }
