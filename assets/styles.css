@@ -861,3 +861,13 @@ p.star{
 .post-fit-image:hover {
     opacity: 0.5;
 }
+.vertical-align {
+    display: grid;
+    align-items: center;
+}
+
+.post-text {
+    color: white !important;
+    text-align: center;
+    font-size: 16px;
+}
