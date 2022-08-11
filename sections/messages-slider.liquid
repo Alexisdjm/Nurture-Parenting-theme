@@ -12,7 +12,7 @@
             </picture>
             <div class=" post-fit-image h-100 vertical-align">
                 <div style="display: grid; align-items:center" class="post-info picture-padding">
-                    {{ block.settings.post_content }}
+                    {{ block.settings.text_ig }}
                 </div>
                 
             </div>
@@ -50,6 +50,12 @@
                         "id":"post_content",
                         "label":"post text",
                         "default": "<p>alexis</p>"
+                    },
+                    {
+                        "type": "textarea",
+                        "id":"text_ig",
+                        "label":"text",
+                        "default": "<p>something</p>"
                     },
                     {
                         "type": "text",
