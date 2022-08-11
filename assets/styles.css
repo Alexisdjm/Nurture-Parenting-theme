@@ -858,9 +858,10 @@ p.star{
     top: -100%;
 }
 
-/* .post-fit-image:hover {
+.post-fit-image:hover {
     opacity: 0.5;
-} */
+}
+
 .vertical-align {
     display: grid;
     align-items: center;
