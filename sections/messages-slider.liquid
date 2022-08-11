@@ -11,7 +11,7 @@
                 <img src="{{ block.settings.instagram_image | img_url: 'master' }}" alt="post">
             </picture>
             <div class="w-100 h-100">
-                <div class="post-info picture-padding">
+                <div class="post-info post-fit-image picture-padding">
                     {{ block.settings.post_content }}
                 </div>
             </div>
@@ -48,7 +48,7 @@
                         "type": "textarea",
                         "id":"post_content",
                         "label":"post text",
-                        "default": "<p style='color:white;' class='dieciseis source-sans-pro'>loren ipsum</p>"
+                        "default": "<p style='color:white;' class='dieciseis source-sans-pro w-100'>loren ipsum</p>"
                     },
                     {
                         "type": "text",
