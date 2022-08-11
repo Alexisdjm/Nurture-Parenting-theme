@@ -7,7 +7,7 @@
     <section>
         {% for block in section.blocks %}
         <div class="post">
-            <picture style="padding: 0;">
+            <picture class="picture-padding">
                 <img src="{{ block.settings.instagram_image | img_url: 'master' }}" alt="post">
             </picture>
         </div>
