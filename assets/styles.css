@@ -858,9 +858,9 @@ p.star{
     top: -100%;
 }
 
-.post-fit-image:hover {
+/* .post-fit-image:hover {
     opacity: 0.5;
-}
+} */
 .vertical-align {
     display: grid;
     align-items: center;
@@ -869,7 +869,7 @@ p.star{
 .post-text {
     color: white !important;
     text-align: center;
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 .direction-arrow {
