@@ -853,3 +853,15 @@ p.star{
     background-color: black;
     opacity: 0.5;
 }
+
+.post-fit-image {
+    display: none;
+    position: relative;
+    z-index: 999;
+    top: -100%;
+    padding: 10px;
+}
+
+.post-fit-image:hover {
+    display: block;
+}
