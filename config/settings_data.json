@@ -724,6 +724,76 @@
           "title": "E-Books",
           "star": "shopify:\/\/shop_images\/Star_1.png"
         }
+      },
+      "16602490020ff9463b": {
+        "type": "messages-slider",
+        "blocks": {
+          "c1be896f-9e2c-42b4-bb54-4c43b7f4de71": {
+            "type": "text",
+            "settings": {
+              "instagram_image": "shopify:\/\/shop_images\/sleeping-baby-3-months-light.png",
+              "post_content": "<p style=\"color:white;\" class=\"dieciseis source-sans-pro\">loren ipsum<\/p>",
+              "likes_number": "0",
+              "comments_number": "0"
+            }
+          },
+          "e6b6fe75-6729-4316-bf7f-b69f95682d04": {
+            "type": "text",
+            "settings": {
+              "instagram_image": "shopify:\/\/shop_images\/Young-Girl-On-Stairs-In-Pajamas-At-Christmas-498459592_2125x1416_a9fe8a3a-8cba-4c84-9e5c-e1be6b5b8a0d.png",
+              "post_content": "<p style=\"color:white;\" class=\"dieciseis source-sans-pro\">loren ipsum<\/p>",
+              "likes_number": "0",
+              "comments_number": "0"
+            }
+          },
+          "6e358e3b-6831-4168-a8f0-51f747a589ee": {
+            "type": "text",
+            "settings": {
+              "instagram_image": "shopify:\/\/shop_images\/close-up-portrait-baby-girl-who-sleeps-cradle-crib.png",
+              "post_content": "<p style=\"color:white;\" class=\"dieciseis source-sans-pro\">loren ipsum<\/p>",
+              "likes_number": "0",
+              "comments_number": "0"
+            }
+          },
+          "b6e54872-f36a-4c2a-aa5b-0e77379f017a": {
+            "type": "text",
+            "settings": {
+              "instagram_image": "shopify:\/\/shop_images\/Climbing-toddler-543488060_2122x1416_5cf861ee-69b9-4952-b4c4-8fb4773adb56.jpg",
+              "post_content": "<p style=\"color:white;\" class=\"dieciseis source-sans-pro\">loren ipsum<\/p>",
+              "likes_number": "0",
+              "comments_number": "0"
+            }
+          },
+          "396e890a-e79e-4ce1-ab67-bcbdf835a063": {
+            "type": "text",
+            "settings": {
+              "instagram_image": "shopify:\/\/shop_images\/812478628.jpg",
+              "post_content": "<p style=\"color:white;\" class=\"dieciseis source-sans-pro\">loren ipsum<\/p>",
+              "likes_number": "0",
+              "comments_number": "0"
+            }
+          },
+          "af181583-6f7e-4a97-a86f-9873e96920ab": {
+            "type": "text",
+            "settings": {
+              "instagram_image": "shopify:\/\/shop_images\/A-Asian-man-and-baby-girl-1096875104_2125x1414_9edb4956-a8af-46f0-b680-6ed6656cf1a0.jpg",
+              "post_content": "<p style=\"color:white;\" class=\"dieciseis source-sans-pro\">loren ipsum<\/p>",
+              "likes_number": "0",
+              "comments_number": "0"
+            }
+          }
+        },
+        "block_order": [
+          "c1be896f-9e2c-42b4-bb54-4c43b7f4de71",
+          "e6b6fe75-6729-4316-bf7f-b69f95682d04",
+          "6e358e3b-6831-4168-a8f0-51f747a589ee",
+          "b6e54872-f36a-4c2a-aa5b-0e77379f017a",
+          "396e890a-e79e-4ce1-ab67-bcbdf835a063",
+          "af181583-6f7e-4a97-a86f-9873e96920ab"
+        ],
+        "settings": {
+          "col_num": 5
+        }
       }
     },
     "content_for_index": [
@@ -734,7 +804,8 @@
       "1658559957e5678ccb",
       "16588990791c6df038",
       "1659409814d1086c90",
-      "16596726517add4421"
+      "16596726517add4421",
+      "16602490020ff9463b"
     ]
   },
   "presets": {
