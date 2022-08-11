@@ -838,9 +838,8 @@ p.star{
 /* #################################################### instagram post section ############################################################ */
 
 .post{
-    min-width: 33%;
-    height: 32vw;
-    background: white;
+    min-width: 25%;
+    height: 25vw;
     position: relative;
     left: 0;
     transition: 0.5s;
