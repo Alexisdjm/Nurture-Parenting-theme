@@ -918,4 +918,6 @@ p.star{
     text-align: left;
     margin-top: 2em;
     font-weight: 700;
+    font-size: 16px !important;
+    color: white !important;
 }
