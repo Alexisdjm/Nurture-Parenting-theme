@@ -817,6 +817,7 @@
           "bb695c52-714a-47a6-bb49-1a2e86971b7f": {
             "type": "text",
             "settings": {
+              "blog_image": "shopify:\/\/shop_images\/close-up-portrait-baby-girl-who-sleeps-cradle-crib_1.png",
               "blog_title": "<p class=\"post-text bold;\">loren ipsum<\/p>",
               "width": false
             }
@@ -824,13 +825,15 @@
           "27e2aedb-0ccb-4d35-ac8c-57a3ab80d2df": {
             "type": "text",
             "settings": {
+              "blog_image": "shopify:\/\/shop_images\/portrait-extremely-happy-mother-blogger-broadcasting-livestream-with-her-daughter-waving-hand-followers-expressling-positive-emotions-laughing-happily_1.jpg",
               "blog_title": "<p class=\"post-text bold;\">loren ipsum<\/p>",
-              "width": false
+              "width": true
             }
           },
           "94dc9015-861b-415e-9932-5109b4c05218": {
             "type": "text",
             "settings": {
+              "blog_image": "shopify:\/\/shop_images\/Young-Girl-On-Stairs-In-Pajamas-At-Christmas-498459592_2125x1416_075cf0c4-8093-4278-96f2-daaffa0dc4bf.jpg",
               "blog_title": "<p class=\"post-text bold;\">loren ipsum<\/p>",
               "width": false
             }
