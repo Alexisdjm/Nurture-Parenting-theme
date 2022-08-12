@@ -3,20 +3,20 @@
         <h2 style="font-size: 36px; color:#361E45; text-align: center;">{{ section.settings.blog_header }}</h2>
     </div>
     <p style="position: relative; z-index:999; top:150px">
-        <span style="right:95%;" class="ebook-arrow">&#139;</span>
-        <span style="left:95%;" class="ebook-arrow">&#155;</span>
+        <span style="right:95%;" class="blog-arrow">&#139;</span>
+        <span style="left:95%;" class="blog-arrow">&#155;</span>
     </p>
     <div class="w-100; flex-center">
         <section class="ebook-section-height">
             {% for block in section.blocks %}
                 {% if block.settings.width %}
-                    <div style="min-width: 33%;" class="blog-wider">
+                    <div style="min-width: 33%; max-width: 479px; max-height: 378px;" class="blog">
                         <picture class="picture-padding">
                             <img src="{{ block.settings.blog_image | img_url: 'master' }}" alt="blog">
                         </picture>
                     </div>
                 {% else %}
-                <div style="min-width: 20%;" class="blog-tiny">
+                <div style="min-width: 20%; max-width: 271px; max-height: 378px;" class="blog">
                     <picture class="picture-padding">
                         <img src="{{ block.settings.blog_image | img_url: 'master' }}" alt="blog">
                     </picture>
