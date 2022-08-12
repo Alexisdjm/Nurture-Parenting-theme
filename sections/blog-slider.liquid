@@ -11,13 +11,13 @@
             {% for block in section.blocks %}
                 {% if block.settings.width %}
                     <div style="min-width: 33%; max-width: 479px; max-height: 378px;" class="blog">
-                        <picture class="picture-padding">
+                        <picture style="max-width: 479px;" class="picture-padding">
                             <img src="{{ block.settings.blog_image | img_url: 'master' }}" alt="blog">
                         </picture>
                     </div>
                 {% else %}
                 <div style="min-width: 20%; max-width: 271px; max-height: 378px;" class="blog">
-                    <picture class="picture-padding">
+                    <picture style="max-width: 273px;" class="picture-padding">
                         <img src="{{ block.settings.blog_image | img_url: 'master' }}" alt="blog">
                     </picture>
                 </div>                            
