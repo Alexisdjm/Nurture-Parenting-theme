@@ -3,13 +3,13 @@ let post_arrow = document.getElementsByClassName('post-arrow');
 	let post_page = Math.ceil(post.length/4);
 	let k = 0;
 	let movimiento = 30;
-	let limite = 180;
+	let limite = 120;
 	// mobile_view	
 	let view_mobile = window.matchMedia("(max-width: 768px)");
 	if (view_mobile.matches)
 	 {
 	 	movimiento = 50.36;
-	 	limite = 373;
+	 	limite = 280;
 	 }
 
 	let right = ()=>{
