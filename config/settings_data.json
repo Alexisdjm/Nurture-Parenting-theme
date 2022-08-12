@@ -732,7 +732,6 @@
             "type": "text",
             "settings": {
               "instagram_image": "shopify:\/\/shop_images\/sleeping-baby-3-months-light.png",
-              "post_content": "<p style=\"color:white;\" class=\"dieciseis source-sans-pro\">loren ipsum<\/p>",
               "text_ig": "<p class=\"post-text source-sans-pro w-100\">Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and.<\/p>",
               "likes_number": "562",
               "comments_number": "78"
@@ -742,7 +741,6 @@
             "type": "text",
             "settings": {
               "instagram_image": "shopify:\/\/shop_images\/Young-Girl-On-Stairs-In-Pajamas-At-Christmas-498459592_2125x1416_a9fe8a3a-8cba-4c84-9e5c-e1be6b5b8a0d.png",
-              "post_content": "<p style=\"color:white;\" class=\"dieciseis source-sans-pro\">loren ipsum<\/p>",
               "text_ig": "<p class=\"post-text source-sans-pro w-100\">Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and.<\/p>",
               "likes_number": "488",
               "comments_number": "56"
@@ -752,7 +750,6 @@
             "type": "text",
             "settings": {
               "instagram_image": "shopify:\/\/shop_images\/close-up-portrait-baby-girl-who-sleeps-cradle-crib.png",
-              "post_content": "<p style=\"color:white;\" class=\"dieciseis source-sans-pro\">loren ipsum<\/p>",
               "text_ig": "<p class=\"post-text source-sans-pro w-100\">Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and.<\/p>",
               "likes_number": "634",
               "comments_number": "87"
@@ -762,7 +759,6 @@
             "type": "text",
             "settings": {
               "instagram_image": "shopify:\/\/shop_images\/Climbing-toddler-543488060_2122x1416_5cf861ee-69b9-4952-b4c4-8fb4773adb56.jpg",
-              "post_content": "<p style=\"color:white;\" class=\"dieciseis source-sans-pro\">loren ipsum<\/p>",
               "text_ig": "<p class=\"post-text source-sans-pro w-100\">Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and.<\/p>",
               "likes_number": "601",
               "comments_number": "55"
@@ -772,7 +768,6 @@
             "type": "text",
             "settings": {
               "instagram_image": "shopify:\/\/shop_images\/812478628.jpg",
-              "post_content": "<p style=\"color:white;\" class=\"dieciseis source-sans-pro\">loren ipsum<\/p>",
               "text_ig": "<p class=\"post-text source-sans-pro w-100\">Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and.<\/p>",
               "likes_number": "498",
               "comments_number": "66"
@@ -782,7 +777,6 @@
             "type": "text",
             "settings": {
               "instagram_image": "shopify:\/\/shop_images\/A-Asian-man-and-baby-girl-1096875104_2125x1414_9edb4956-a8af-46f0-b680-6ed6656cf1a0.jpg",
-              "post_content": "<p style=\"color: white !important; text-align: center\">loren ipsum<\/p>",
               "text_ig": "<p class=\"post-text source-sans-pro w-100\">Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and.<\/p>",
               "likes_number": "552",
               "comments_number": "91"
@@ -800,6 +794,25 @@
         "settings": {
           "col_num": 5
         }
+      },
+      "1660274661cecaab0a": {
+        "type": "blog-slider",
+        "blocks": {
+          "bd3c1418-a074-417d-a397-58310fb8f066": {
+            "type": "text",
+            "settings": {
+              "blog_image": "shopify:\/\/shop_images\/A-Asian-man-and-baby-girl-1096875104_2125x1414_1.jpg",
+              "blog_title": "<p class=\"post-text bold;\">loren ipsum<\/p>",
+              "width": false
+            }
+          }
+        },
+        "block_order": [
+          "bd3c1418-a074-417d-a397-58310fb8f066"
+        ],
+        "settings": {
+          "blog_header": ""
+        }
       }
     },
     "content_for_index": [
@@ -811,7 +824,8 @@
       "16588990791c6df038",
       "1659409814d1086c90",
       "16596726517add4421",
-      "16602490020ff9463b"
+      "16602490020ff9463b",
+      "1660274661cecaab0a"
     ]
   },
   "presets": {
