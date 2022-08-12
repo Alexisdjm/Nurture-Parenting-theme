@@ -945,3 +945,10 @@ p.star{
     border-style: solid;
     border-width: thin;
 }
+
+/* ############################################## static gallery section ################################################################ */
+
+.text-div-aligner {
+    min-height: 160px; 
+    width: fit-content;
+}
