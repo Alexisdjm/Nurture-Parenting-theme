@@ -906,3 +906,9 @@ p.star{
 .blog-picture-wider {
     max-width: 479px; 
 }
+
+@media screen and (min-width: 2000px) {
+    .blog-arrow {
+        display: none;
+    }
+}
