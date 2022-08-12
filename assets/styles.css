@@ -877,6 +877,11 @@ p.star{
     position: absolute; 
     font-size: 20px; 
     z-index: 999;
+    opacity: 0;
+}
+
+.arrow:hover, .ebook-arrow:hover, .post-arrow:hover, .blog-arrow:hover {
+    opacity: 1;
 }
 
 .right {
