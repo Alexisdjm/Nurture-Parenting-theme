@@ -802,7 +802,7 @@
             "type": "text",
             "settings": {
               "blog_image": "shopify:\/\/shop_images\/A-Asian-man-and-baby-girl-1096875104_2125x1414_1.jpg",
-              "blog_title": "<p style=\"padding-top: 2em\" class=\"post-text bold;\">Baby Sleep Rescue & The 3 Minute Rule eBook - Black Friday<\/p>",
+              "blog_content": "Baby Sleep Rescue & The 3 Minute Rule eBook - Black Friday",
               "width": true
             }
           },
@@ -810,7 +810,7 @@
             "type": "text",
             "settings": {
               "blog_image": "shopify:\/\/shop_images\/close-up-portrait-baby-girl-who-sleeps-cradle-crib_1.png",
-              "blog_title": "<p style=\"padding-top: 2em;\" class=\"post-text bold;\">Healing The Wounded Inner Child<\/p>",
+              "blog_content": "Healing The Wounded Inner Child",
               "width": false
             }
           },
@@ -818,7 +818,7 @@
             "type": "text",
             "settings": {
               "blog_image": "shopify:\/\/shop_images\/Climbing-toddler-543488060_2122x1416_1.jpg",
-              "blog_title": "<p class=\"post-text bold;\">loren ipsum<\/p>",
+              "blog_content": "Things you need to know about Fenugreek and increasing milk supply",
               "width": false
             }
           },
@@ -826,7 +826,7 @@
             "type": "text",
             "settings": {
               "blog_image": "shopify:\/\/shop_images\/portrait-extremely-happy-mother-blogger-broadcasting-livestream-with-her-daughter-waving-hand-followers-expressling-positive-emotions-laughing-happily_1.jpg",
-              "blog_title": "<p class=\"post-text bold;\">loren ipsum<\/p>",
+              "blog_content": "something",
               "width": true
             }
           },
@@ -834,7 +834,7 @@
             "type": "text",
             "settings": {
               "blog_image": "shopify:\/\/shop_images\/Young-Girl-On-Stairs-In-Pajamas-At-Christmas-498459592_2125x1416_075cf0c4-8093-4278-96f2-daaffa0dc4bf.jpg",
-              "blog_title": "<p class=\"post-text bold;\">loren ipsum<\/p>",
+              "blog_content": "something",
               "width": false
             }
           }
