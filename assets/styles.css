@@ -914,7 +914,7 @@ p.star{
 }
 
 .blog-post-title {
-    width: 65%;
+    max-width: 70%;
     text-align: left;
     margin-top: 2em;
     font-weight: 700;
