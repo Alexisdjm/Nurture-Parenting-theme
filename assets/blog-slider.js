@@ -13,21 +13,23 @@ let blog_arrow = document.getElementsByClassName('blog-arrow');
 	 }
 
 	let der = ()=>{
+        console.log("derecha")
 		q = q + mov;
 		if (blog == 1){q = 0; }
 		for(const i of blog)
 		{
 			if (q > lim){q = q - mov;}
-			i.style.isz = '-' + q + '%';
+			i.style.left = '-' + q + '%';
 		}
 
 	}
 	let isz = ()=>{
+        console.log("izquierda")
 		q = q - mov;
 		if (q<=0){q = 0;}
 		for(const i of blog){
 			if (blog_page>1){
-				i.style.isz = '-' + q + '%';
+				i.style.left = '-' + q + '%';
 			}
 		}
 	}
