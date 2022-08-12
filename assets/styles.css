@@ -921,3 +921,9 @@ p.star{
     font-size: 18px !important;
     color: white !important;
 }
+
+.blog-section {
+    width: fit-content; 
+    height: fit-content; 
+    max-width: 98%;
+}
