@@ -3,13 +3,13 @@ let blog_arrow = document.getElementsByClassName('blog-arrow');
 	let blog_page = Math.ceil(blog.length/4);
 	let q = 0;
 	let mov = 25;
-	let lim = 100;
+	let lim = 55;
 	// mobile_view	
 	let view_m = window.matchMedia("(max-width: 768px)");
 	if (view_m.matches)
 	 {
 	 	mov = 50.36;
-	 	lim = 280;
+	 	lim = 110;
 	 }
 
 	let der = ()=>{
