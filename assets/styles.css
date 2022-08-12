@@ -898,3 +898,13 @@ p.star{
     left: 0;
     transition: 0.5s;
 }
+
+.blog-picture-tiny {
+    max-width: 273px; 
+    min-width: 12vw;
+}
+
+.blog-picture-wider {
+    max-width: 479; 
+    min-width: 24vw;
+}
