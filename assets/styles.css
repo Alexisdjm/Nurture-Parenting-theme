@@ -933,4 +933,10 @@ p.star{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-  }
+}
+
+.button-colors {
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+}
