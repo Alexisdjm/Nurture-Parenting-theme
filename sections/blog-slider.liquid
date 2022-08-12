@@ -2,10 +2,10 @@
     <div class="w-100; ebook-title-padding">
         <h2 style="font-size: 36px; color:#361E45; text-align: center;">{{ section.settings.blog_header }}</h2>
     </div>
-    <p style="position: relative; z-index:999; top:150px">
-        <span style="right:95%;" class="blog-arrow">&#139;</span>
-        <span style="left:95%;" class="blog-arrow">&#155;</span>
-    </p>
+    <div style="position: relative; z-index:999; top:22vh; width: 98%;">
+        <button style="right:95%;" class="blog-arrow redondo button-colors">&#139;</button>
+        <button style="left:95%;" class="blog-arrow redondo button-colors">&#155;</button>
+    </div>
     <div style="margin-left: 60px;" class="w-100; flex-center">
         <section class="blog-section">
             {% for block in section.blocks %}
