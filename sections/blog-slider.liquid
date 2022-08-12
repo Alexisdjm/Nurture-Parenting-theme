@@ -14,13 +14,23 @@
                         <picture class="picture-padding blog-picture-wider">
                             <img src="{{ block.settings.blog_image | img_url: 'master' }}" alt="blog">
                         </picture>
+                        <div class=" post-fit-image h-100">
+                            <div class="post-info picture-padding">
+                                {{ block.settings.blog_title }}
+                            </div>
+                        </div>
                     </div>
                 {% else %}
-                <div style="min-width: fit-content; max-height: 378px;" class="blog">
-                    <picture class="picture-padding blog-picture-tiny">
-                        <img src="{{ block.settings.blog_image | img_url: 'master' }}" alt="blog">
-                    </picture>
-                </div>                            
+                    <div style="min-width: fit-content; max-height: 378px;" class="blog">
+                        <picture class="picture-padding blog-picture-tiny">
+                            <img src="{{ block.settings.blog_image | img_url: 'master' }}" alt="blog">
+                        </picture>
+                        <div class=" post-fit-image h-100">
+                            <div class="post-info picture-padding">
+                                {{ block.settings.blog_title }}
+                            </div>
+                        </div>
+                    </div>                            
                 {% endif %}
             {% endfor %}
         </section>
