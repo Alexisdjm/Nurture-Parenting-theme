@@ -12,13 +12,14 @@
             </picture>
             <div class=" post-fit-image h-100 vertical-align">
                 <div style="display: grid; align-items:center" class="post-info picture-padding">
-                    <div class="flex-center w-100">
-                        <p class="post-text source-sans-pro w-100"><span class="mdi mdi-comment-outline"></span>{{ block.settings.comments_number }}</p>
-                        <p class="post-text source-sans-pro w-100"><span class="mdi mdi-heart-outline"></span>{{ block.settings.likes_number }}</p>
+                    <div style="height: fit-content; margin: auto;">
+                        <div class="flex-center w-100">
+                            <p class="post-text source-sans-pro w-100"><span class="mdi mdi-comment-outline"></span>{{ block.settings.comments_number }}</p>
+                            <p class="post-text source-sans-pro w-100"><span class="mdi mdi-heart-outline"></span>{{ block.settings.likes_number }}</p>
+                        </div>
+                        {{ block.settings.text_ig }}
                     </div>
-                    {{ block.settings.text_ig }}
                 </div>
-                
             </div>
         </div>
         {% endfor %}      
