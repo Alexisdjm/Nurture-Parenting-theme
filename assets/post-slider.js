@@ -24,7 +24,7 @@ let post_arrow = document.getElementsByClassName('post-arrow');
 	}
 	let left = ()=>{
 		k = k - movimiento;
-		if (l<=0){k = 0;}
+		if (k<=0){k = 0;}
 		for(const i of post){
 			if (post_page>1){
 				i.style.left = '-' + k + '%';
