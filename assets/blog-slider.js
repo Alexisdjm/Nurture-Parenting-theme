@@ -24,7 +24,7 @@ let blog_arrow = document.getElementsByClassName('blog-arrow');
 	}
 	let isz = ()=>{
 		q = q - mov;
-		if (l<=0){q = 0;}
+		if (q<=0){q = 0;}
 		for(const i of blog){
 			if (blog_page>1){
 				i.style.isz = '-' + q + '%';
