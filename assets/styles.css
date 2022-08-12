@@ -875,7 +875,7 @@ p.star{
 
 .arrow, .ebook-arrow, .post-arrow, .blog-arrow {
     position: absolute; 
-    font-size: 60px; 
+    font-size: 20px; 
     z-index: 999;
 }
 
