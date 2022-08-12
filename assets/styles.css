@@ -912,3 +912,9 @@ p.star{
         display: none;
     }
 }
+
+.blog-post-title {
+    width: 65%;
+    text-align: left;
+    margin-top: 2em;
+}
