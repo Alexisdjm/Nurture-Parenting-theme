@@ -886,3 +886,26 @@ p.star{
 .left {
     left: 95%;
 }
+/* ################################################### Blog Slider ######################################################### */
+
+.bold {
+    font-weight: 700;
+}
+
+.blog-wider {
+    max-width: 479px;
+    height: 32vw;
+    max-height: 378px;
+    position: relative;
+    left: 0;
+    transition: 0.5s;
+}
+
+.blog-tiny {
+    max-width: 271px;
+    height: 32vw;
+    max-height: 378px;
+    position: relative;
+    left: 0;
+    transition: 0.5s;
+}

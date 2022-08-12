@@ -1,0 +1,73 @@
+<div class="w-100 section-margin">
+    <div class="w-100; ebook-title-padding">
+        <h2 style="font-size: 36px; color:#361E45; text-align: center;">{{ section.settings.blog_header }}</h2>
+    </div>
+    <p style="position: relative; z-index:999; top:150px">
+        <span style="right:95%;" class="ebook-arrow">&#139;</span>
+        <span style="left:95%;" class="ebook-arrow">&#155;</span>
+    </p>
+    <div class="w-100; flex-center">
+        <section class="ebook-section-height">
+            {% for block in section.blocks %}
+                {% if block.settings.width %}
+                    <div style="min-width: 33%;" class="blog-wider">
+                        <picture class="picture-padding">
+                            <img src="{{ block.settings.ebook_image | img_url: 'master' }}" alt="blog">
+                        </picture>
+                    </div>
+                {% else %}
+                <div style="min-width: 20%;" class="blog-tiny">
+                    <picture class="picture-padding">
+                        <img src="{{ block.settings.ebook_image | img_url: 'master' }}" alt="blog">
+                    </picture>
+                </div>                            
+                {% endif %}
+            {% endfor %}
+        </section>
+    </div> 
+</div>
+{% schema %}
+    {
+        "name": "Blog Slider",
+        "class": "Blog-slider",
+        "settings": [
+            {
+               "type": "text",
+               "id": "blog_header",
+               "label":"blog header"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "text",
+                "name": "big post",
+                "settings": [
+                    {
+                       "type": "image_picker",
+                       "id": "blog_image",
+                       "label": "blog image"
+                    },
+                    {
+                       "type": "textarea",
+                       "id": "blog_title",
+                       "label": "blog title",
+                      "default": "<p class='post-text bold;'>loren ipsum</p>",
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "width",
+                        "label": "wider blog item",
+                        "default": false
+                    }
+
+                ]
+            }
+        ],
+       "presets": [
+            {
+                "category": "blogs",
+                "name":"blogs gallery"
+            }
+       ]
+    }
+{% endschema %}
