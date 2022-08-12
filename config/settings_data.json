@@ -803,7 +803,7 @@
             "settings": {
               "blog_image": "shopify:\/\/shop_images\/A-Asian-man-and-baby-girl-1096875104_2125x1414_1.jpg",
               "blog_title": "<p class=\"post-text bold;\">loren ipsum<\/p>",
-              "width": false
+              "width": true
             }
           }
         },
