@@ -802,22 +802,22 @@
             "type": "text",
             "settings": {
               "blog_image": "shopify:\/\/shop_images\/A-Asian-man-and-baby-girl-1096875104_2125x1414_1.jpg",
-              "blog_title": "<p class=\"post-text bold;\">loren ipsum<\/p>",
+              "blog_title": "<p style=\"padding-top: 2em\" class=\"post-text bold;\">Baby Sleep Rescue & The 3 Minute Rule eBook - Black Friday<\/p>",
               "width": true
-            }
-          },
-          "b1c796b2-be4a-459d-b85d-814dc1560364": {
-            "type": "text",
-            "settings": {
-              "blog_image": "shopify:\/\/shop_images\/Climbing-toddler-543488060_2122x1416_1.jpg",
-              "blog_title": "<p class=\"post-text bold;\">loren ipsum<\/p>",
-              "width": false
             }
           },
           "bb695c52-714a-47a6-bb49-1a2e86971b7f": {
             "type": "text",
             "settings": {
               "blog_image": "shopify:\/\/shop_images\/close-up-portrait-baby-girl-who-sleeps-cradle-crib_1.png",
+              "blog_title": "<p style=\"padding-top: 2em;\" class=\"post-text bold;\">Healing The Wounded Inner Child<\/p>",
+              "width": false
+            }
+          },
+          "b1c796b2-be4a-459d-b85d-814dc1560364": {
+            "type": "text",
+            "settings": {
+              "blog_image": "shopify:\/\/shop_images\/Climbing-toddler-543488060_2122x1416_1.jpg",
               "blog_title": "<p class=\"post-text bold;\">loren ipsum<\/p>",
               "width": false
             }
@@ -841,8 +841,8 @@
         },
         "block_order": [
           "bd3c1418-a074-417d-a397-58310fb8f066",
-          "b1c796b2-be4a-459d-b85d-814dc1560364",
           "bb695c52-714a-47a6-bb49-1a2e86971b7f",
+          "b1c796b2-be4a-459d-b85d-814dc1560364",
           "27e2aedb-0ccb-4d35-ac8c-57a3ab80d2df",
           "94dc9015-861b-415e-9932-5109b4c05218"
         ],
