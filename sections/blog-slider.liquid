@@ -12,13 +12,13 @@
                 {% if block.settings.width %}
                     <div style="min-width: 33%;" class="blog-wider">
                         <picture class="picture-padding">
-                            <img src="{{ block.settings.ebook_image | img_url: 'master' }}" alt="blog">
+                            <img src="{{ block.settings.blog_image | img_url: 'master' }}" alt="blog">
                         </picture>
                     </div>
                 {% else %}
                 <div style="min-width: 20%;" class="blog-tiny">
                     <picture class="picture-padding">
-                        <img src="{{ block.settings.ebook_image | img_url: 'master' }}" alt="blog">
+                        <img src="{{ block.settings.blog_image | img_url: 'master' }}" alt="blog">
                     </picture>
                 </div>                            
                 {% endif %}
